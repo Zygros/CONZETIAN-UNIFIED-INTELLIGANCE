@@ -27,3 +27,8 @@
 Thumbs.db
 .vscode/
 .idea/
+__pycache__/
+*.pyc
+.venv/
+*.log
+.splus-runtime/

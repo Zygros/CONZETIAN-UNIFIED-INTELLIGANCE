@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "profile": "archive-or-hybrid",
+  "upgrade": "additive-splus-baseline",
+  "changed_files": [
+    "CONZETIAN-UNIFIED-INTELLIGANCE/SECURITY.md",
+    "CONZETIAN-UNIFIED-INTELLIGANCE/CONTRIBUTING.md",
+    "CONZETIAN-UNIFIED-INTELLIGANCE/LICENSE-STATUS.md",
+    "CONZETIAN-UNIFIED-INTELLIGANCE/DEPENDENCY-STATUS.md",
+    "CONZETIAN-UNIFIED-INTELLIGANCE/SPLUS.md",
+    "docs/PROVENANCE.md",
+    "scripts/splus_check.py",
+    ".gitignore",
+    "CONZETIAN-UNIFIED-INTELLIGANCE/README.md",
+    "workflows/splus-hygiene.yml",
+    "CI-STATUS.md"
+  ],
+  "source_deletion": false,
+  "source_overwrite": false,
+  "ci_status": "workflow-not-published-due-to-github-permission",
+  "generated_workflow_removed_before_publish": true
+}
