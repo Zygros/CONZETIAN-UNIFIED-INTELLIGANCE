@@ -1,0 +1,29 @@
+# Nested Git metadata and local working state
+**/.git/
+.git/
+
+# Dependency and generated directories
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+**/.cache/
+**/coverage/
+**/__pycache__/
+**/vendor/
+**/target/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

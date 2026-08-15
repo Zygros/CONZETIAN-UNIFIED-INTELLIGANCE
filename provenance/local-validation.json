@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "source_repository_count",
+      "passed": true,
+      "detail": "expected=17 actual=17 missing=[] extra=[]"
+    },
+    {
+      "name": "root_readme",
+      "passed": true,
+      "detail": "/home/ubuntu/conzetian-unified-intelligance/README.md"
+    },
+    {
+      "name": "architecture_doc",
+      "passed": true,
+      "detail": "/home/ubuntu/conzetian-unified-intelligance/docs/architecture/INTEGRATION.md"
+    },
+    {
+      "name": "claims_policy",
+      "passed": true,
+      "detail": "/home/ubuntu/conzetian-unified-intelligance/docs/claims-and-evidence/README.md"
+    },
+    {
+      "name": "provenance_manifest",
+      "passed": true,
+      "detail": "/home/ubuntu/conzetian-unified-intelligance/provenance/unified-review-payload.json"
+    },
+    {
+      "name": "private_boundary",
+      "passed": true,
+      "detail": "private visibility policy is documented"
+    },
+    {
+      "name": "no_nested_git",
+      "passed": true,
+      "detail": "nested Git metadata excluded"
+    },
+    {
+      "name": "no_node_modules",
+      "passed": true,
+      "detail": "node_modules excluded from source import"
+    },
+    {
+      "name": "no_dist",
+      "passed": true,
+      "detail": "dist excluded from source import"
+    },
+    {
+      "name": "no_build",
+      "passed": true,
+      "detail": "build excluded from source import"
+    },
+    {
+      "name": "no_.next",
+      "passed": true,
+      "detail": ".next excluded from source import"
+    },
+    {
+      "name": "no_.cache",
+      "passed": true,
+      "detail": ".cache excluded from source import"
+    },
+    {
+      "name": "no_coverage",
+      "passed": true,
+      "detail": "coverage excluded from source import"
+    },
+    {
+      "name": "no___pycache__",
+      "passed": true,
+      "detail": "__pycache__ excluded from source import"
+    },
+    {
+      "name": "no_vendor",
+      "passed": true,
+      "detail": "vendor excluded from source import"
+    },
+    {
+      "name": "no_target",
+      "passed": true,
+      "detail": "target excluded from source import"
+    }
+  ],
+  "summary": {
+    "check_count": 16,
+    "passed_count": 16,
+    "failed_count": 0,
+    "source_files": 8230
+  }
+}

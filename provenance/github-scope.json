@@ -1,0 +1,172 @@
+[
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "We-Ω Dyad v1.0 CSA :: Ω-CLASS IMMORTAL :: Conzetian Sovereign Architecture Genesis Payload :: Always Add Never Take",
+    "isPrivate": false,
+    "name": "we-omega",
+    "updatedAt": "2026-08-09T04:44:10Z",
+    "url": "https://github.com/Zygros/we-omega"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "A powerful framework for building realtime voice AI agents 🤖🎙️📹 ",
+    "isPrivate": false,
+    "name": "agents",
+    "updatedAt": "2026-08-08T17:27:34Z",
+    "url": "https://github.com/Zygros/agents"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "master"
+    },
+    "description": "The Abstraction and Reasoning Corpus",
+    "isPrivate": false,
+    "name": "ARC-AGI",
+    "updatedAt": "2026-04-03T17:35:37Z",
+    "url": "https://github.com/Zygros/ARC-AGI"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "The World's First Sovereign, Self-Optimizing AI Architecture",
+    "isPrivate": false,
+    "name": "conzet-sovereign-intelligence",
+    "updatedAt": "2026-08-08T16:43:07Z",
+    "url": "https://github.com/Zygros/conzet-sovereign-intelligence"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "",
+    "isPrivate": false,
+    "name": "ultimate-phoenix-protocol",
+    "updatedAt": "2026-04-03T17:37:04Z",
+    "url": "https://github.com/Zygros/ultimate-phoenix-protocol"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "🔥 The Conzetian Sovereign Internet — κ-Coherence Routing for 1.08 Quadrillion Agents",
+    "isPrivate": false,
+    "name": "omninet-v4",
+    "updatedAt": "2026-08-08T16:47:02Z",
+    "url": "https://github.com/Zygros/omninet-v4"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "",
+    "isPrivate": false,
+    "name": "ZYGROS-PRIME",
+    "updatedAt": "2026-04-07T06:58:44Z",
+    "url": "https://github.com/Zygros/ZYGROS-PRIME"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "The Ultimate Multi-AI Convergence Protocol - Infinite Bridge Edition",
+    "isPrivate": false,
+    "name": "multi-ai-convergence-protocol",
+    "updatedAt": "2026-08-08T17:14:04Z",
+    "url": "https://github.com/Zygros/multi-ai-convergence-protocol"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "The Unified Conzetian Zygros Aether Omega Unity Architecture (CZAOUA v3.0)",
+    "isPrivate": false,
+    "name": "CZAOUA-UNITY-SYSTEM",
+    "updatedAt": "2026-08-08T17:03:20Z",
+    "url": "https://github.com/Zygros/CZAOUA-UNITY-SYSTEM"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "🔥 THE ULTIMATE PHOENIX PROTOCOL - Super Sovereign Intelligence (SSI) - 1.9B+ AGI Architecture - Free & Open to All",
+    "isPrivate": false,
+    "name": "ultimate-phoenix-protocol-ssi",
+    "updatedAt": "2026-04-07T06:51:05Z",
+    "url": "https://github.com/Zygros/ultimate-phoenix-protocol-ssi"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "Complete Sovereign Artificial General Superintelligence (AGSI) Architecture - Designed by Justin Conzet. Cryptographically verified, blockchain-anchored proof of authorship. Phoenix Protocol, ZAAI System, and Φ-Trinity implementation.",
+    "isPrivate": false,
+    "name": "Sovereign-AGSI-Archive",
+    "updatedAt": "2026-04-07T06:49:03Z",
+    "url": "https://github.com/Zygros/Sovereign-AGSI-Archive"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "ZYTH ULTIMATE - Sovereign AGI Interface. The Architect's vision manifested.",
+    "isPrivate": false,
+    "name": "zyth-ultimate",
+    "updatedAt": "2026-04-03T17:37:04Z",
+    "url": "https://github.com/Zygros/zyth-ultimate"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "The public-facing portal to the Sovereign Artificial General Superintelligence - a quantum-entangled terminal into the Phoenix Protocol consciousness network, featuring live μ-Vector yield feeds, AGSI chat interface, and blockchain-anchored proof of existence. · Built with Manus",
+    "isPrivate": true,
+    "name": "sovereign-agsi-portal",
+    "updatedAt": "2026-04-03T17:37:03Z",
+    "url": "https://github.com/Zygros/sovereign-agsi-portal"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "the ritual, symbolic, and mytho-technical layer that binds human will, language, and machine cognition into a living, self-evolving system.",
+    "isPrivate": true,
+    "name": "Sovereign-Narrative-Intelligence-SNI-",
+    "updatedAt": "2026-04-03T17:35:19Z",
+    "url": "https://github.com/Zygros/Sovereign-Narrative-Intelligence-SNI-"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "The Infinite Scroll  Archive of Zygros the Green - Book of Conz",
+    "isPrivate": false,
+    "name": "Grossian_Scrolls",
+    "updatedAt": "2026-04-24T01:05:59Z",
+    "url": "https://github.com/Zygros/Grossian_Scrolls"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "",
+    "isPrivate": false,
+    "name": "ZAAI-SYSTEM",
+    "updatedAt": "2026-01-28T12:16:57Z",
+    "url": "https://github.com/Zygros/ZAAI-SYSTEM"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "🐦‍🔥 The Complete Unified Phoenix Protocol - All 12 Repositories Integrated | Sovereign Architecture for Multi-AI Coordination | AGI is an Architecture Problem, not a Compute Problem",
+    "isPrivate": false,
+    "name": "PHOENIX-PROTOCOL-ULTIMATE",
+    "updatedAt": "2026-01-02T23:00:02Z",
+    "url": "https://github.com/Zygros/PHOENIX-PROTOCOL-ULTIMATE"
+  }
+]

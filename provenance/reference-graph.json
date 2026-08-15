@@ -1,0 +1,279 @@
+{
+  "edges": [
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "Sovereign-AGSI-Archive",
+      "weight": 65
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "Grossian_Scrolls",
+      "weight": 35
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "Sovereign-AGSI-Archive",
+      "weight": 21
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "ZAAI-SYSTEM",
+      "weight": 21
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "Sovereign-Narrative-Intelligence-SNI-",
+      "weight": 15
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "ultimate-phoenix-protocol-ssi",
+      "weight": 15
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "zyth-ultimate",
+      "weight": 15
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "conzet-sovereign-intelligence",
+      "weight": 13
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "multi-ai-convergence-protocol",
+      "weight": 13
+    },
+    {
+      "source": "ultimate-phoenix-protocol-ssi",
+      "target": "multi-ai-convergence-protocol",
+      "weight": 13
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "Grossian_Scrolls",
+      "weight": 11
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "conzet-sovereign-intelligence",
+      "weight": 11
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "ultimate-phoenix-protocol-ssi",
+      "weight": 11
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "multi-ai-convergence-protocol",
+      "weight": 9
+    },
+    {
+      "source": "Sovereign-AGSI-Archive",
+      "target": "conzet-sovereign-intelligence",
+      "weight": 7
+    },
+    {
+      "source": "conzet-sovereign-intelligence",
+      "target": "Sovereign-AGSI-Archive",
+      "weight": 7
+    },
+    {
+      "source": "ultimate-phoenix-protocol-ssi",
+      "target": "Sovereign-AGSI-Archive",
+      "weight": 7
+    },
+    {
+      "source": "ultimate-phoenix-protocol-ssi",
+      "target": "conzet-sovereign-intelligence",
+      "weight": 7
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "ZAAI-SYSTEM",
+      "weight": 6
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "agents",
+      "weight": 5
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "zyth-ultimate",
+      "weight": 5
+    },
+    {
+      "source": "Sovereign-AGSI-Archive",
+      "target": "Grossian_Scrolls",
+      "weight": 5
+    },
+    {
+      "source": "Sovereign-AGSI-Archive",
+      "target": "agents",
+      "weight": 5
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "ARC-AGI",
+      "weight": 5
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "agents",
+      "weight": 5
+    },
+    {
+      "source": "conzet-sovereign-intelligence",
+      "target": "Grossian_Scrolls",
+      "weight": 5
+    },
+    {
+      "source": "conzet-sovereign-intelligence",
+      "target": "agents",
+      "weight": 5
+    },
+    {
+      "source": "omninet-v4",
+      "target": "agents",
+      "weight": 5
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "ARC-AGI",
+      "weight": 4
+    },
+    {
+      "source": "Sovereign-AGSI-Archive",
+      "target": "ZAAI-SYSTEM",
+      "weight": 4
+    },
+    {
+      "source": "Sovereign-AGSI-Archive",
+      "target": "zyth-ultimate",
+      "weight": 4
+    },
+    {
+      "source": "conzet-sovereign-intelligence",
+      "target": "ZAAI-SYSTEM",
+      "weight": 4
+    },
+    {
+      "source": "conzet-sovereign-intelligence",
+      "target": "zyth-ultimate",
+      "weight": 4
+    },
+    {
+      "source": "we-omega",
+      "target": "CZAOUA-UNITY-SYSTEM",
+      "weight": 4
+    },
+    {
+      "source": "we-omega",
+      "target": "Grossian_Scrolls",
+      "weight": 4
+    },
+    {
+      "source": "we-omega",
+      "target": "PHOENIX-PROTOCOL-ULTIMATE",
+      "weight": 4
+    },
+    {
+      "source": "we-omega",
+      "target": "Sovereign-AGSI-Archive",
+      "weight": 4
+    },
+    {
+      "source": "we-omega",
+      "target": "ZYGROS-PRIME",
+      "weight": 4
+    },
+    {
+      "source": "we-omega",
+      "target": "conzet-sovereign-intelligence",
+      "weight": 4
+    },
+    {
+      "source": "we-omega",
+      "target": "multi-ai-convergence-protocol",
+      "weight": 4
+    },
+    {
+      "source": "we-omega",
+      "target": "omninet-v4",
+      "weight": 4
+    },
+    {
+      "source": "we-omega",
+      "target": "zyth-ultimate",
+      "weight": 4
+    },
+    {
+      "source": "Sovereign-AGSI-Archive",
+      "target": "ARC-AGI",
+      "weight": 3
+    },
+    {
+      "source": "Sovereign-AGSI-Archive",
+      "target": "omninet-v4",
+      "weight": 3
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "omninet-v4",
+      "weight": 3
+    },
+    {
+      "source": "agents",
+      "target": "omninet-v4",
+      "weight": 3
+    },
+    {
+      "source": "conzet-sovereign-intelligence",
+      "target": "omninet-v4",
+      "weight": 3
+    },
+    {
+      "source": "sovereign-agsi-portal",
+      "target": "omninet-v4",
+      "weight": 3
+    },
+    {
+      "source": "ultimate-phoenix-protocol",
+      "target": "omninet-v4",
+      "weight": 3
+    },
+    {
+      "source": "zyth-ultimate",
+      "target": "omninet-v4",
+      "weight": 3
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "ZYGROS-PRIME",
+      "weight": 2
+    },
+    {
+      "source": "ZYGROS-PRIME",
+      "target": "sovereign-agsi-portal",
+      "weight": 2
+    },
+    {
+      "source": "CZAOUA-UNITY-SYSTEM",
+      "target": "agents",
+      "weight": 1
+    },
+    {
+      "source": "PHOENIX-PROTOCOL-ULTIMATE",
+      "target": "ultimate-phoenix-protocol",
+      "weight": 1
+    },
+    {
+      "source": "we-omega",
+      "target": "agents",
+      "weight": 1
+    }
+  ]
+}

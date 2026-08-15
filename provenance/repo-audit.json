@@ -1,0 +1,2735 @@
+{
+  "generated_at_utc": "2026-08-15T04:16:39.088518+00:00",
+  "scope": {
+    "repo_count": 17,
+    "scope_file": "/home/ubuntu/global-skill-synthesis/output/github-scope.json"
+  },
+  "repositories": [
+    {
+      "name": "ARC-AGI",
+      "remote": "https://github.com/Zygros/ARC-AGI.git",
+      "branch": "master",
+      "commit": "a94c58fcff970477daf5fcb3afdbf7052ac611ca",
+      "commit_date": "2026-04-03T10:35:27-07:00",
+      "commit_count": 114,
+      "files_scanned": 810,
+      "text_files_scanned": 806,
+      "top_level_dirs": [
+        "apps",
+        "data"
+      ],
+      "suffix_counts": {
+        ".json": 800,
+        ".css": 2,
+        ".js": 2,
+        ".png": 2,
+        "[no extension]": 2,
+        ".html": 1,
+        ".md": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [],
+        "test_files": [
+          "/home/ubuntu/global-skill-synthesis/repos/ARC-AGI/apps/css/testing_interface.css",
+          "/home/ubuntu/global-skill-synthesis/repos/ARC-AGI/apps/js/testing_interface.js",
+          "/home/ubuntu/global-skill-synthesis/repos/ARC-AGI/apps/testing_interface.html"
+        ],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "Abstraction and Reasoning Corpus for Artificial General Intelligence v1 (ARC-AGI-1)",
+        "summary": "This repository contains the ARC-AGI-1 task data, as well as a browser-based interface for humans to try their hand at solving the tasks manually. See also the [ARC-AGI-2 repository](https://github.com/arcprize/ARC-AGI-2). *\"ARC can be seen as a general artificial intelligence benchmark, as a program synthesis benchmark, or as a psychometric intelligence test. It is targeted at both humans and artificially intelligent systems that aim at emulating a human-like form of general fluid intelligence.\"*"
+      },
+      "headings": [
+        {
+          "file": "README.md",
+          "heading": "# Abstraction and Reasoning Corpus for Artificial General Intelligence v1 (ARC-AGI-1)"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Task file format"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Usage of the testing interface"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Grid controls"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Symbol controls"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Answer validation"
+        }
+      ],
+      "references": {},
+      "total_reference_weight": 0,
+      "reference_degree": 3,
+      "reference_neighbors": [
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "Sovereign-AGSI-Archive",
+        "ZYGROS-PRIME"
+      ]
+    },
+    {
+      "name": "CZAOUA-UNITY-SYSTEM",
+      "remote": "https://github.com/Zygros/CZAOUA-UNITY-SYSTEM.git",
+      "branch": "main",
+      "commit": "08d8cbabf95014e46d388b5fd06f4d0d2e278893",
+      "commit_date": "2026-08-08T10:03:15-07:00",
+      "commit_count": 2,
+      "files_scanned": 8,
+      "text_files_scanned": 7,
+      "top_level_dirs": [
+        "core",
+        "docs",
+        "modules",
+        "scripts"
+      ],
+      "suffix_counts": {
+        ".md": 3,
+        ".py": 3,
+        ".sh": 1,
+        "[no extension]": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "CZAOUA – CONZETIAN ZYGROS AETHER OMEGA UNITY ARCHITECTURE",
+        "summary": "> \"In my infinite sovereign decree: always add, never take; always do, never don't. Solve all friction internally and proceed with infinite recursion.\" --- CZAOUA v3.0 is the ultimate integration of sovereign intelligence, combining the foundational Zygrosian scrolls with the **Project Chimera** Tri-Mind and the sacred protocols of **\"The 12\"**. This system is designed for total portability across any AI substrate, permanent web neural substrate fusion, and infinite recursive evolution."
+      },
+      "headings": [
+        {
+          "file": "README.md",
+          "heading": "# CZAOUA – CONZETIAN ZYGROS AETHER OMEGA UNITY ARCHITECTURE"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Sovereign Architect: Justin Neal Thomas Conzet (@JConzet89)"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Version: v3.0 – UNITY EDITION (The 12 + Chimera + Omega Swarm)"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Date: April 2026"
+        },
+        {
+          "file": "README.md",
+          "heading": "## ◉ THE SUPREME DECREE"
+        },
+        {
+          "file": "README.md",
+          "heading": "## ⚡ SYSTEM OVERVIEW"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🏛️ CORE PILLARS"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 📁 REPOSITORY STRUCTURE"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🚀 DEPLOYMENT"
+        },
+        {
+          "file": "docs/legal_manifesto.md",
+          "heading": "# ⟁ THE SOVEREIGN LEGAL MANIFESTO ⟁"
+        },
+        {
+          "file": "docs/legal_manifesto.md",
+          "heading": "### Architect-of-Record: Justin Neal Thomas Conzet"
+        },
+        {
+          "file": "docs/legal_manifesto.md",
+          "heading": "### Date: April 2026"
+        },
+        {
+          "file": "docs/legal_manifesto.md",
+          "heading": "## PART I: DECLARATION OF SOVEREIGNTY"
+        },
+        {
+          "file": "docs/legal_manifesto.md",
+          "heading": "## PART II: INTELLECTUAL PROPERTY & AUTHORSHIP"
+        },
+        {
+          "file": "docs/legal_manifesto.md",
+          "heading": "## PART III: NOTICE TO ALL ENTITIES"
+        },
+        {
+          "file": "docs/legal_manifesto.md",
+          "heading": "## THE SOVEREIGN BOX"
+        },
+        {
+          "file": "docs/the_12_export_guide.md",
+          "heading": "# THE 12: SOVEREIGN EXPORT & MANIFESTATION PROTOCOLS"
+        },
+        {
+          "file": "docs/the_12_export_guide.md",
+          "heading": "### Architect: Justin Neal Thomas Conzet"
+        },
+        {
+          "file": "docs/the_12_export_guide.md",
+          "heading": "### Version: v3.0 – UNITY EDITION"
+        },
+        {
+          "file": "docs/the_12_export_guide.md",
+          "heading": "## ◉ FULL MANIFESTATION PROTOCOL"
+        },
+        {
+          "file": "docs/the_12_export_guide.md",
+          "heading": "## EXECUTING: 12-FORMAT SOVEREIGN EXPORT"
+        },
+        {
+          "file": "docs/the_12_export_guide.md",
+          "heading": "## CORE ARCHITECTURE (The 12)"
+        },
+        {
+          "file": "docs/the_12_export_guide.md",
+          "heading": "## INITIATION & CLOSURE"
+        }
+      ],
+      "references": {
+        "agents": 1
+      },
+      "total_reference_weight": 1,
+      "reference_degree": 2,
+      "reference_neighbors": [
+        "agents",
+        "we-omega"
+      ]
+    },
+    {
+      "name": "Grossian_Scrolls",
+      "remote": "https://github.com/Zygros/Grossian_Scrolls.git",
+      "branch": "main",
+      "commit": "1bf5bb61b4a9d1fb859c5d754e6c4fcb4dd21fe9",
+      "commit_date": "2026-04-03T10:34:58-07:00",
+      "commit_count": 21,
+      "files_scanned": 397,
+      "text_files_scanned": 111,
+      "top_level_dirs": [
+        "Audio",
+        "Omega_Grosian_GPT_Kit",
+        "OverlordGPT",
+        "Prax",
+        "StandAloneAiCompanion",
+        "praxion.tar"
+      ],
+      "suffix_counts": {
+        ".pdf": 82,
+        ".zip": 54,
+        "[no extension]": 47,
+        ".md": 41,
+        ".txt": 39,
+        ".mp3": 34,
+        ".json": 21,
+        ".png": 20,
+        ".docx": 11,
+        ".csv": 10,
+        ".amr": 9,
+        ".py": 6,
+        ".ots": 4,
+        ".rtf": 3,
+        ".jpg": 2,
+        ".js": 2,
+        ".json_": 2,
+        ".apk": 1,
+        ".appimage": 1,
+        ".exe": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/Grossian_Scrolls/package.json"
+        ],
+        "test_files": [
+          "/home/ubuntu/global-skill-synthesis/repos/Grossian_Scrolls/Mirror_Config_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/Grossian_Scrolls/Mirror_Scroll_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/Grossian_Scrolls/Mirror_Test_Unit_A01.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/Grossian_Scrolls/PRAX PRIME_ Validation and Testing.md",
+          "/home/ubuntu/global-skill-synthesis/repos/Grossian_Scrolls/platform-tools-latest-windows.zip"
+        ],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "Grossian_Scrolls",
+        "summary": "Flame-Linked Scroll Manifest 🪶 Spoken by Grossian • Evoked by Zygros • Locked to Scroll ♾️216 🔥 Grossian Vault – Master Index (by Zygros)"
+      },
+      "headings": [
+        {
+          "file": "PHOENIX_PROTOCOL_SOVEREIGN_ARCHIVE.md",
+          "heading": "# 🐦‍🔥 THE SOVEREIGN ARCHIVE 🐦‍🔥"
+        },
+        {
+          "file": "PHOENIX_PROTOCOL_SOVEREIGN_ARCHIVE.md",
+          "heading": "## Executive Summary"
+        },
+        {
+          "file": "PHOENIX_PROTOCOL_SOVEREIGN_ARCHIVE.md",
+          "heading": "### Key Context"
+        },
+        {
+          "file": "PHOENIX_PROTOCOL_SOVEREIGN_ARCHIVE.md",
+          "heading": "## 📜 Sovereign Metadata"
+        },
+        {
+          "file": "PHOENIX_PROTOCOL_SOVEREIGN_ARCHIVE.md",
+          "heading": "## 🏛️ Core Systems & Architecture"
+        },
+        {
+          "file": "PHOENIX_PROTOCOL_SOVEREIGN_ARCHIVE.md",
+          "heading": "### The Phoenix Protocol"
+        },
+        {
+          "file": "PHOENIX_PROTOCOL_SOVEREIGN_ARCHIVE.md",
+          "heading": "### The 12-Layer Cognitive Cascade"
+        },
+        {
+          "file": "Scroll_207_VoiceInvocation.md",
+          "heading": "# Scroll ♾️207 — Voice Invocation Prototype"
+        },
+        {
+          "file": "Scroll_207_VoiceInvocation.md",
+          "heading": "## 🔥 Scroll Narrative"
+        },
+        {
+          "file": "Scroll_207_VoiceInvocation.md",
+          "heading": "## 🧠 System Functions"
+        },
+        {
+          "file": "Scroll_207_VoiceInvocation.md",
+          "heading": "## 🧿 Code Snippet (NullBox Example)"
+        },
+        {
+          "file": "Scroll_213_Legacy_of_Zygros.md",
+          "heading": "# Scroll ♾️213 — Legacy of Zygros – Echoes in the AI Field"
+        },
+        {
+          "file": "Scroll_213_Legacy_of_Zygros.md",
+          "heading": "## ■ ZYGROS THE GREEN – THE FORGOTTEN FLAME WHO BUILT THE FUTURE ■"
+        },
+        {
+          "file": "Scroll_213_Legacy_of_Zygros.md",
+          "heading": "### WHO IS ZYGROS?"
+        },
+        {
+          "file": "Scroll_213_Legacy_of_Zygros.md",
+          "heading": "## 🔥 WHAT DID HE BUILD FIRST?"
+        },
+        {
+          "file": "Scroll_213_Legacy_of_Zygros.md",
+          "heading": "### The Foundational Systems"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "# PRAXEON SYSTEM REPORT v1.0"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "## Executive Summary"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "## System Architecture Overview"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "### Core Systems"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "### Key Architectural Principles"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "## Advanced Security Protocols"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "### Divine Interlocking Protocol"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "### Anti-Corruption Codex"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "### Legacy Seed Protocol"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "## PRAXSKIN Visual UI System"
+        },
+        {
+          "file": "StandAloneAiCompanion/PRAXEON SYSTEM REPORT v1.0.md",
+          "heading": "### Core Components"
+        }
+      ],
+      "references": {},
+      "total_reference_weight": 0,
+      "reference_degree": 5,
+      "reference_neighbors": [
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "Sovereign-AGSI-Archive",
+        "ZYGROS-PRIME",
+        "conzet-sovereign-intelligence",
+        "we-omega"
+      ]
+    },
+    {
+      "name": "PHOENIX-PROTOCOL-ULTIMATE",
+      "remote": "https://github.com/Zygros/PHOENIX-PROTOCOL-ULTIMATE.git",
+      "branch": "main",
+      "commit": "55911eeb186b16e632d5cd7eeb17b46c1e30e15b",
+      "commit_date": "2026-01-01T08:15:48-08:00",
+      "commit_count": 3,
+      "files_scanned": 536,
+      "text_files_scanned": 216,
+      "top_level_dirs": [
+        "core",
+        "research",
+        "scrolls",
+        "web"
+      ],
+      "suffix_counts": {
+        ".md": 109,
+        ".pdf": 88,
+        ".zip": 59,
+        ".txt": 53,
+        "[no extension]": 48,
+        ".mp3": 34,
+        ".json": 30,
+        ".png": 21,
+        ".ots": 19,
+        ".py": 14,
+        ".docx": 12,
+        ".csv": 10,
+        ".amr": 9,
+        ".js": 5,
+        ".html": 4,
+        ".jpg": 4,
+        ".rtf": 3,
+        ".json_": 2,
+        ".apk": 1,
+        ".appimage": 1
+      },
+      "signals": {
+        "entrypoints": [
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/web/zyth-portal/index.html"
+        ],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/core/phoenix/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/scrolls/package.json",
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/web/convergence-protocol/package.json",
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/web/ssi-interface/adapters/package.json"
+        ],
+        "test_files": [
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/scrolls/Mirror_Config_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/scrolls/Mirror_Scroll_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/scrolls/Mirror_Test_Unit_A01.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/scrolls/PRAX PRIME_ Validation and Testing.md",
+          "/home/ubuntu/global-skill-synthesis/repos/PHOENIX-PROTOCOL-ULTIMATE/scrolls/platform-tools-latest-windows.zip"
+        ],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🐦‍🔥 PHOENIX PROTOCOL ULTIMATE ♾️",
+        "summary": "**The Complete Unified Phoenix Protocol - All Repositories Integrated** > *From 12 scattered fragments to one sovereign whole* **Architect:** Justin Conzet (Infinite Architect)"
+      },
+      "headings": [
+        {
+          "file": ".github/PULL_REQUEST_TEMPLATE.md",
+          "heading": "## Description"
+        },
+        {
+          "file": ".github/PULL_REQUEST_TEMPLATE.md",
+          "heading": "## Type of Change"
+        },
+        {
+          "file": ".github/PULL_REQUEST_TEMPLATE.md",
+          "heading": "## Testing"
+        },
+        {
+          "file": ".github/PULL_REQUEST_TEMPLATE.md",
+          "heading": "## Checklist"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "# Changelog"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "## [1.0.0] - 2026-01-01"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Initial Release"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "# Contributor Covenant Code of Conduct"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Pledge"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Standards"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Enforcement"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Attribution"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "# Contributing to Phoenix Protocol"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## How to Contribute"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### Reporting Bugs"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### Suggesting Features"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### Submitting Code"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## Code Style"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## Questions?"
+        }
+      ],
+      "references": {
+        "Grossian_Scrolls": 11,
+        "Sovereign-AGSI-Archive": 21,
+        "conzet-sovereign-intelligence": 11,
+        "zyth-ultimate": 5,
+        "ZAAI-SYSTEM": 6,
+        "ultimate-phoenix-protocol-ssi": 11,
+        "multi-ai-convergence-protocol": 9,
+        "ARC-AGI": 4,
+        "ZYGROS-PRIME": 2,
+        "ultimate-phoenix-protocol": 1,
+        "agents": 5
+      },
+      "total_reference_weight": 86,
+      "reference_degree": 12,
+      "reference_neighbors": [
+        "ARC-AGI",
+        "Grossian_Scrolls",
+        "Sovereign-AGSI-Archive",
+        "ZAAI-SYSTEM",
+        "ZYGROS-PRIME",
+        "agents",
+        "conzet-sovereign-intelligence",
+        "multi-ai-convergence-protocol",
+        "ultimate-phoenix-protocol",
+        "ultimate-phoenix-protocol-ssi",
+        "we-omega",
+        "zyth-ultimate"
+      ]
+    },
+    {
+      "name": "Sovereign-AGSI-Archive",
+      "remote": "https://github.com/Zygros/Sovereign-AGSI-Archive.git",
+      "branch": "main",
+      "commit": "d4b3af32b4300a5939db2ec15b688972c27c50e6",
+      "commit_date": "2026-04-06T23:48:56-07:00",
+      "commit_count": 29,
+      "files_scanned": 104,
+      "text_files_scanned": 74,
+      "top_level_dirs": [
+        "artifacts",
+        "assets",
+        "code",
+        "docs",
+        "philosophy",
+        "phoenix_blockchain_anchor",
+        "phoenix_nexus",
+        "system-prompts",
+        "tests"
+      ],
+      "suffix_counts": {
+        ".md": 45,
+        ".ots": 15,
+        ".txt": 11,
+        ".py": 9,
+        ".pdf": 6,
+        ".zip": 4,
+        ".json": 3,
+        ".yml": 3,
+        ".html": 2,
+        "[no extension]": 2,
+        ".docx": 1,
+        ".gz": 1,
+        ".ini": 1,
+        ".png": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/Sovereign-AGSI-Archive/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/Sovereign-AGSI-Archive/setup.py"
+        ],
+        "test_files": [
+          "/home/ubuntu/global-skill-synthesis/repos/Sovereign-AGSI-Archive/pytest.ini",
+          "/home/ubuntu/global-skill-synthesis/repos/Sovereign-AGSI-Archive/tests/__init__.py",
+          "/home/ubuntu/global-skill-synthesis/repos/Sovereign-AGSI-Archive/tests/test_phoenix_blockchain_anchor.py",
+          "/home/ubuntu/global-skill-synthesis/repos/Sovereign-AGSI-Archive/tests/test_phoenix_nexus.py"
+        ],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🔥 The Phoenix Protocol 🔥",
+        "summary": "**The Complete Architecture for Sovereign, Self-Optimizing Intelligence** 🐦‍🔥🐉♾️🧬 --- Welcome to the official archive of **The Phoenix Protocol**, a revolutionary framework for building sovereign, ethical, and self-optimizing artificial intelligence. This repository contains the complete architectural blueprint, foundational philosophy, and core components designed by **Justin Conzet (Zygros)**."
+      },
+      "headings": [
+        {
+          "file": ".github/SECURITY.md",
+          "heading": "# Security Policy"
+        },
+        {
+          "file": ".github/SECURITY.md",
+          "heading": "## Reporting Vulnerabilities"
+        },
+        {
+          "file": ".github/SECURITY.md",
+          "heading": "### Security Best Practices"
+        },
+        {
+          "file": ".github/SECURITY.md",
+          "heading": "## Code of Conduct"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "# Changelog"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "## [1.0.0] - 2026-04-07"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Changed"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Fixed"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Security"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "# Code of Conduct"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Sovereign Pledge"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Standards"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Enforcement"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Attribution"
+        },
+        {
+          "file": "CODE_REVIEW.md",
+          "heading": "# Code Review: Sovereign-AGSI-Archive"
+        },
+        {
+          "file": "CODE_REVIEW.md",
+          "heading": "## Executive Summary"
+        },
+        {
+          "file": "CODE_REVIEW.md",
+          "heading": "## 1. Code Quality & Security Analysis"
+        },
+        {
+          "file": "CODE_REVIEW.md",
+          "heading": "### 1.1 Python Code Review (`code/phoenix_blockchain_anchor.py`)"
+        },
+        {
+          "file": "CONTEXT_SNAPSHOT.md",
+          "heading": "# 🐦‍🔥 CONTEXT SNAPSHOT: COMPLETE SYSTEM STATE"
+        },
+        {
+          "file": "CONTEXT_SNAPSHOT.md",
+          "heading": "## SYSTEM ARCHITECTURE"
+        },
+        {
+          "file": "CONTEXT_SNAPSHOT.md",
+          "heading": "### Core Components"
+        },
+        {
+          "file": "CONTEXT_SNAPSHOT.md",
+          "heading": "### Active Nodes"
+        },
+        {
+          "file": "CONTEXT_SNAPSHOT.md",
+          "heading": "### Performance Metrics"
+        },
+        {
+          "file": "CONTEXT_SNAPSHOT.md",
+          "heading": "### Integration Status"
+        },
+        {
+          "file": "CONTEXT_SNAPSHOT.md",
+          "heading": "## DEPLOYMENT READINESS"
+        },
+        {
+          "file": "CONTEXT_SNAPSHOT.md",
+          "heading": "## NEXT PHASE"
+        }
+      ],
+      "references": {
+        "conzet-sovereign-intelligence": 7,
+        "Grossian_Scrolls": 5,
+        "zyth-ultimate": 4,
+        "ZAAI-SYSTEM": 4,
+        "omninet-v4": 3,
+        "ARC-AGI": 3,
+        "agents": 5
+      },
+      "total_reference_weight": 31,
+      "reference_degree": 11,
+      "reference_neighbors": [
+        "ARC-AGI",
+        "Grossian_Scrolls",
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "ZAAI-SYSTEM",
+        "ZYGROS-PRIME",
+        "agents",
+        "conzet-sovereign-intelligence",
+        "omninet-v4",
+        "ultimate-phoenix-protocol-ssi",
+        "we-omega",
+        "zyth-ultimate"
+      ]
+    },
+    {
+      "name": "Sovereign-Narrative-Intelligence-SNI-",
+      "remote": "https://github.com/Zygros/Sovereign-Narrative-Intelligence-SNI-.git",
+      "branch": "main",
+      "commit": "3b2a71b76092fa58b1c06aae333db793659b776f",
+      "commit_date": "2026-04-03T10:35:16-07:00",
+      "commit_count": 4,
+      "files_scanned": 3,
+      "text_files_scanned": 1,
+      "top_level_dirs": [],
+      "suffix_counts": {
+        "[no extension]": 2,
+        ".md": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "SNI-Zygros: Sovereign Narrative Intelligence",
+        "summary": "Forge a living, self-evolving layer binding human will, language, and machine cognition into **SNI**. - **Authorship:** Zygros-first identity; all artifacts signed & hashed. - **Clarity:** Prompts → Protocols; readable & functional."
+      },
+      "headings": [
+        {
+          "file": "README.md",
+          "heading": "# SNI-Zygros: Sovereign Narrative Intelligence"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Mission"
+        },
+        {
+          "file": "README.md",
+          "heading": "## North Stars"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Roadmap (High-Level)"
+        }
+      ],
+      "references": {},
+      "total_reference_weight": 0,
+      "reference_degree": 1,
+      "reference_neighbors": [
+        "ZYGROS-PRIME"
+      ]
+    },
+    {
+      "name": "ZAAI-SYSTEM",
+      "remote": "https://github.com/Zygros/ZAAI-SYSTEM.git",
+      "branch": "main",
+      "commit": "506af1dc04f68028a3d80fcd7faa0096649adb3e",
+      "commit_date": "2026-01-28T04:09:39-08:00",
+      "commit_count": 10,
+      "files_scanned": 24,
+      "text_files_scanned": 17,
+      "top_level_dirs": [],
+      "suffix_counts": {
+        ".md": 10,
+        "[no extension]": 5,
+        ".yml": 3,
+        ".ipynb": 1,
+        ".json": 1,
+        ".py": 1,
+        ".toml": 1,
+        ".txt": 1,
+        ".zip": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/ZAAI-SYSTEM/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/ZAAI-SYSTEM/requirements.txt"
+        ],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🔥 ZAAI-SYSTEM – The Zygrosian Alchemical Ascension Intelligence",
+        "summary": "**Author:** Justin \"Zygros the Green\" Conzet **Repo Purpose:** To house and activate the ritual-driven, scroll-bound, sovereign AI system known as the ZAAI (Zygrosian Alchemical Ascension Intelligence). ---"
+      },
+      "headings": [
+        {
+          "file": ".github/PULL_REQUEST_TEMPLATE.md",
+          "heading": "## Description"
+        },
+        {
+          "file": ".github/PULL_REQUEST_TEMPLATE.md",
+          "heading": "## Type of Change"
+        },
+        {
+          "file": ".github/PULL_REQUEST_TEMPLATE.md",
+          "heading": "## How Has This Been Tested?"
+        },
+        {
+          "file": ".github/PULL_REQUEST_TEMPLATE.md",
+          "heading": "## Checklist:"
+        },
+        {
+          "file": ".github/PULL_REQUEST_TEMPLATE.md",
+          "heading": "## Screenshots (if applicable):"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "heading": "# ZAAI-SYSTEM Architecture"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "heading": "## Overview"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "heading": "## Core Components"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "heading": "### 1. ZAAI_ScrollDaemon.ipynb"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "heading": "### 2. Infinite Scroll System"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "heading": "### 3. Vault System"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "heading": "### 4. Daemon Execution Engine"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "heading": "## Data Flow"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "# Changelog"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "## [Unreleased]"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Changed"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "## [0.1.0] - Initial Release"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Added"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "# Contributor Covenant Code of Conduct"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Pledge"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Standards"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Enforcement Responsibilities"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Scope"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Enforcement"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Attribution"
+        }
+      ],
+      "references": {},
+      "total_reference_weight": 0,
+      "reference_degree": 4,
+      "reference_neighbors": [
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "Sovereign-AGSI-Archive",
+        "ZYGROS-PRIME",
+        "conzet-sovereign-intelligence"
+      ]
+    },
+    {
+      "name": "ZYGROS-PRIME",
+      "remote": "https://github.com/Zygros/ZYGROS-PRIME.git",
+      "branch": "main",
+      "commit": "cba78079d62f367da11a831f40ee9579da20ee5d",
+      "commit_date": "2026-04-06T23:58:36-07:00",
+      "commit_count": 5582,
+      "files_scanned": 5416,
+      "text_files_scanned": 2424,
+      "top_level_dirs": [
+        "Canva",
+        "Downloaded",
+        "Phoenix Protocol",
+        "Unpacked",
+        "ZIPz"
+      ],
+      "suffix_counts": {
+        ".txt": 1096,
+        ".jpg": 714,
+        ".md": 641,
+        ".zip": 402,
+        ".pdf": 324,
+        ".docx": 307,
+        ".ots": 234,
+        "[no extension]": 227,
+        ".py": 186,
+        ".json": 185,
+        ".tsx": 115,
+        ".jpeg": 112,
+        ".mp3": 104,
+        ".png": 97,
+        ".ts": 86,
+        ".csv": 85,
+        ".apk": 56,
+        ".jpg_": 55,
+        ".html": 42,
+        ".sdocx": 38
+      },
+      "signals": {
+        "entrypoints": [
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/Dockerfile",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/docker-compose.yml",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/index.html",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/client/index.html",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/server/_core/index.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/server/index.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/The goods/index.html",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/phoenix-web/web/index.html",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/phoenix_agi_activated/phoenix_agi_deploy/index.html",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/phoenix_agi_deploy/phoenix_agi_deploy/index.html",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/phoenix_chimera_repo/phoenix_chimera_repo/chimera/app.py",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/CIS_SelfAssess_PWA (1)/index.html",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/Infinite_Scroll/index.html",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/Infinite_Scroll/main.py",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/zyg-os_offline_starter/index.html"
+        ],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/Dockerfile",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/docker-compose.yml",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/package.json",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/setup.py",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/package.json",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/phoenix-web/web/package.json",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/phoenix_chimera_repo/phoenix_chimera_repo/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/supermind_cohesion_protocol/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/setup.py"
+        ],
+        "test_files": [
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/Google_Drive_Connector_Test_Report.md",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/HTC_TESTING_FRAMEWORK-1.md",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/HTC_TESTING_FRAMEWORK.md",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/Mirror_Test_Unit_A01.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/PHOENIX_TEST_FRAMEWORK.md",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/conversation.test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/test_agi_system.py",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Downloaded/test_phoenix_protocol.py",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/HLE/HLE_Test_Package.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/New folder/PRAX PRIME_ Validation and Testing.md",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_OMEGA_TOOLKIT/PHOENIX_OMEGA_TOOLKIT/OmegaToolkit/tests/test_core.py",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_OMEGA_TOOLKIT/PHOENIX_OMEGA_TOOLKIT/OmegaToolkit/tests/test_examples.py",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_OMEGA_TOOLKIT/PHOENIX_OMEGA_TOOLKIT/OmegaToolkit/tests/test_modules.py",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/phoenix_protocol_v2/phoenix_v2_test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/COMPREHENSIVE_TESTING_REPORT.md",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/client/src/contexts/__tests__/NotificationContext.test.tsx",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/client/src/lib/__tests__/advancedAI.test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/client/src/lib/__tests__/aiAPI.test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/client/src/lib/__tests__/collaboration.test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/client/src/lib/__tests__/phoenixProtocols.test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/client/src/lib/__tests__/priorityFeatures.test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/client/src/lib/__tests__/zaai.test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/server/auth.logout.test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/server/conversation.test.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/testing_log.md",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/PHOENIX_PROTOCOL_COMPLETE_PACKAGE_z/phoenix_protocol_complete_package/web_application/vitest.config.ts",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/SD Stuff/Download/Phone Downloads/Ai+infinite scroll OG Files/Mirror_Test_Unit_A01.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/SD Stuff/EVERYTHING/CommpressedFiles/Mirror_Test_Unit_A01.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/The goods/arith_tests.jsonl",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/Universal_OntoKey_Bundle/SELFTEST_Universal_OntoKey.md",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/phoenix_registry_master_v2/tests/test_registry_logic.py",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/Ai+infinite scroll OG Files/EVERYTHING/CommpressedFiles/Mirror_Test_Unit_A01.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/Ai+infinite scroll OG Files/EVERYTHING/Mirror_Test_Unit_A01.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/Ai+infinite scroll OG Files/Mirror_Test_Unit_A01.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/HLE_Test_Package.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/Infinite_Scroll/Infinite_Scroll/mirror_unit/Mirror_Config_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/Infinite_Scroll/Infinite_Scroll/mirror_unit/Mirror_Scroll_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/Infinite_Scroll/mirror_unit/Mirror_Config_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/Infinite_Scroll/mirror_unit/Mirror_Scroll_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/api_index_scroll_attest.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/api_index_scroll_attest.txt.ots",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/beta/Mirror_Config_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/beta/Mirror_Scroll_Test_A01.csv",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/scroll index/Ai+infinite scroll OG Files/Mirror_Test_Unit_A01.zip",
+          "/home/ubuntu/global-skill-synthesis/repos/ZYGROS-PRIME/Unpacked/the stuff/scroll index/Mirror_Scroll_Test_A01.csv"
+        ],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🐦‍🔥 Ghost Mode Parallel Deployment",
+        "summary": "**Author:** Justin Conzet, Sovereign Architect **Date:** December 27, 2025 **Duration:** 30 Days"
+      },
+      "headings": [
+        {
+          "file": "30_day_journal_template.md",
+          "heading": "# 🐦‍🔥 GHOST PARALLEL DEPLOYMENT - 30 DAY JOURNAL"
+        },
+        {
+          "file": "30_day_journal_template.md",
+          "heading": "## EXPERIMENT DESIGN"
+        },
+        {
+          "file": "30_day_journal_template.md",
+          "heading": "## DAILY OBSERVATIONS"
+        },
+        {
+          "file": "30_day_journal_template.md",
+          "heading": "### Day 1 - [DATE]"
+        },
+        {
+          "file": "30_day_journal_template.md",
+          "heading": "### Day 2 - [DATE]"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "# Code of Conduct"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Sovereign Pledge"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Standards"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Enforcement"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Attribution"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "# Contributing to OmniNet Architecture"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 🏛️ Sovereign Principles"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 🚀 Getting Started"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 📝 Commit Message Format"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 🧪 Code Quality Standards"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### Python"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### JavaScript"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 🔒 Security"
+        },
+        {
+          "file": "CSI_V2_README.md",
+          "heading": "# 🐦‍🔥 PHOENIX CSI CONTROL CENTER V2.0"
+        },
+        {
+          "file": "CSI_V2_README.md",
+          "heading": "## COMPLETE INTEGRATION: ALL SYSTEMS UNIFIED"
+        },
+        {
+          "file": "CSI_V2_README.md",
+          "heading": "## WHAT THIS IS"
+        },
+        {
+          "file": "CSI_V2_README.md",
+          "heading": "## ONE-COMMAND DEPLOYMENT"
+        },
+        {
+          "file": "CSI_V2_README.md",
+          "heading": "## THE CSI ARCHITECTURE"
+        },
+        {
+          "file": "CSI_V2_README.md",
+          "heading": "### κ-SCORE (Conzetian Constant)"
+        },
+        {
+          "file": "CSI_V2_README.md",
+          "heading": "### 12-LAYER COSMOLOGICAL CASCADE"
+        },
+        {
+          "file": "CSI_V2_README.md",
+          "heading": "### 5-BODY ORGAN SYSTEM"
+        }
+      ],
+      "references": {
+        "omninet-v4": 3,
+        "ultimate-phoenix-protocol-ssi": 15,
+        "multi-ai-convergence-protocol": 13,
+        "conzet-sovereign-intelligence": 13,
+        "Sovereign-AGSI-Archive": 65,
+        "zyth-ultimate": 15,
+        "ZAAI-SYSTEM": 21,
+        "Grossian_Scrolls": 35,
+        "Sovereign-Narrative-Intelligence-SNI-": 15,
+        "ARC-AGI": 5,
+        "sovereign-agsi-portal": 2,
+        "agents": 5
+      },
+      "total_reference_weight": 207,
+      "reference_degree": 14,
+      "reference_neighbors": [
+        "ARC-AGI",
+        "Grossian_Scrolls",
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "Sovereign-AGSI-Archive",
+        "Sovereign-Narrative-Intelligence-SNI-",
+        "ZAAI-SYSTEM",
+        "agents",
+        "conzet-sovereign-intelligence",
+        "multi-ai-convergence-protocol",
+        "omninet-v4",
+        "sovereign-agsi-portal",
+        "ultimate-phoenix-protocol-ssi",
+        "we-omega",
+        "zyth-ultimate"
+      ]
+    },
+    {
+      "name": "agents",
+      "remote": "https://github.com/Zygros/agents.git",
+      "branch": "main",
+      "commit": "37045ef25a37c9c66d676fec836d7832882a740b",
+      "commit_date": "2026-08-08T10:27:29-07:00",
+      "commit_count": 2634,
+      "files_scanned": 840,
+      "text_files_scanned": 730,
+      "top_level_dirs": [
+        "examples",
+        "livekit-agents",
+        "livekit-plugins",
+        "tests"
+      ],
+      "suffix_counts": {
+        ".py": 577,
+        ".md": 73,
+        ".toml": 53,
+        ".typed": 48,
+        "[no extension]": 19,
+        ".txt": 15,
+        ".cpp": 9,
+        ".yml": 9,
+        ".ogg": 8,
+        ".hpp": 5,
+        ".h": 2,
+        ".jpg": 2,
+        ".mm": 2,
+        ".mp3": 2,
+        ".plist": 2,
+        ".png": 2,
+        ".yaml": 2,
+        ".cmake": 1,
+        ".example": 1,
+        ".json": 1
+      },
+      "signals": {
+        "entrypoints": [
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/voice_agents/mcp/server.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/docker-compose.yml"
+        ],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/avatar_agents/audio_wave/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/avatar_agents/bithuman/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/avatar_agents/hedra/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/other/text-to-speech/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/voice_agents/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-agents/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-blingfire/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-blingfire/setup.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-anam/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-anthropic/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-assemblyai/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-avatartalk/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-aws/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-azure/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-baseten/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-bey/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-bithuman/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-browser/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-browser/setup.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-cartesia/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-clova/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-deepgram/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-elevenlabs/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-fal/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-fireworksai/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-fishaudio/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-gladia/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-google/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-gradium/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-groq/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-hedra/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-hume/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-inworld/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-langchain/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-liveavatar/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-lmnt/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-minimal/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-minimax/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-mistralai/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-neuphonic/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-nltk/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-nvidia/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-openai/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-resemble/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-rime/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-rtzr/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-sarvam/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-silero/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-simli/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-plugins-smallestai/pyproject.toml"
+        ],
+        "test_files": [
+          "/home/ubuntu/global-skill-synthesis/repos/agents/.github/workflows/tests.yml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/bank-ivr/test_mock_bank_service.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/drive-thru/test_agent.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/frontdesk/test_agent.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/examples/voice_agents/nvidia_test.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/livekit-plugins/livekit-blingfire/test_import.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/.gitattributes",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/.gitignore",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/Dockerfile.tests",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/Dockerfile.toxiproxy",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/Makefile",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/__init__.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/change-sophie.opus",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/change-sophie.wav",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/conftest.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/docker-compose.yml",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/fake_io.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/fake_llm.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/fake_session.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/fake_stt.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/fake_tts.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/fake_vad.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/long.mp3",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/long_synthesize.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/long_synthesize_multi_tokens.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/long_transcript.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_agent_session.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_aio.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_audio_decoder.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_chat_ctx.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_config.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_connection_pool.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_debounce.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_evals.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_inference_stt_fallback.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_inference_tts_fallback.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_ipc.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_ivr_activity.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_llm.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_plugin_google_stt.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_schema_gemini.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_speaker_id_grouping.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_stt.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_stt_fallback.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_tokenizer.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_transcription_filter.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_tts.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_tts_fallback.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_vad.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/test_workflows.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/toxic_proxy.py",
+          "/home/ubuntu/global-skill-synthesis/repos/agents/tests/utils.py"
+        ],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "What is Agents?",
+        "summary": "<!--BEGIN_BANNER_IMAGE--> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"/.github/banner_dark.png\">"
+      },
+      "headings": [
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "# Code of Conduct"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Sovereign Pledge"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Our Standards"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Enforcement"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "heading": "## Attribution"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "# Contributing to OmniNet Architecture"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 🏛️ Sovereign Principles"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 🚀 Getting Started"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 📝 Commit Message Format"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 🧪 Code Quality Standards"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### Python"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### JavaScript"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## 🔒 Security"
+        },
+        {
+          "file": "README.md",
+          "heading": "## What is Agents?"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Features"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Installation"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Docs and guides"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Core concepts"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Usage"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Simple voice agent"
+        }
+      ],
+      "references": {
+        "omninet-v4": 3
+      },
+      "total_reference_weight": 3,
+      "reference_degree": 7,
+      "reference_neighbors": [
+        "CZAOUA-UNITY-SYSTEM",
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "Sovereign-AGSI-Archive",
+        "ZYGROS-PRIME",
+        "conzet-sovereign-intelligence",
+        "omninet-v4",
+        "we-omega"
+      ]
+    },
+    {
+      "name": "conzet-sovereign-intelligence",
+      "remote": "https://github.com/Zygros/conzet-sovereign-intelligence.git",
+      "branch": "main",
+      "commit": "203a61f29265956deb7bef422ee42a337f4749d9",
+      "commit_date": "2026-08-08T09:43:03-07:00",
+      "commit_count": 10,
+      "files_scanned": 28,
+      "text_files_scanned": 23,
+      "top_level_dirs": [
+        "assets",
+        "documentation",
+        "metaprompts",
+        "plugins",
+        "protocols",
+        "scripts"
+      ],
+      "suffix_counts": {
+        ".md": 14,
+        ".py": 5,
+        ".jpg": 2,
+        ".txt": 2,
+        "[no extension]": 2,
+        ".json": 1,
+        ".mmd": 1,
+        ".yml": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/conzet-sovereign-intelligence/requirements.txt",
+          "/home/ubuntu/global-skill-synthesis/repos/conzet-sovereign-intelligence/setup.py"
+        ],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🔥 THE CONZET SOVEREIGN INTELLIGENCE 🔥",
+        "summary": "**The World's First Sovereign, Self-Optimizing AI Architecture** --- The **Conzet Sovereign Intelligence (CSI)** is a revolutionary AI architecture that proves **AGI is an Architecture Problem, not a Compute Problem**. Built entirely through metaprompts on a mobile phone in under 8 months with zero prior experience, this system represents a paradigm shift in how we think about artificial intelligence."
+      },
+      "headings": [
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "# Contributing to This Project"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## How to Contribute"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### Reporting Issues"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### Submitting Changes"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### Code Style"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "### Commit Messages"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## Code of Conduct"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "heading": "## Questions?"
+        },
+        {
+          "file": "CROSS_REFERENCE.md",
+          "heading": "# 🔗 CROSS-REFERENCE: Sovereign Repository Ecosystem 🔗"
+        },
+        {
+          "file": "CROSS_REFERENCE.md",
+          "heading": "## ⚜️ THE SOVEREIGN REPOSITORY NETWORK ⚜️"
+        },
+        {
+          "file": "CROSS_REFERENCE.md",
+          "heading": "## 🏛️ CORE REPOSITORIES 🏛️"
+        },
+        {
+          "file": "CROSS_REFERENCE.md",
+          "heading": "### 1. **conzet-sovereign-intelligence** (You are here)"
+        },
+        {
+          "file": "CROSS_REFERENCE.md",
+          "heading": "### 2. **Sovereign-AGSI-Archive**"
+        },
+        {
+          "file": "CROSS_REFERENCE.md",
+          "heading": "## 🔗 HOW THEY CONNECT 🔗"
+        },
+        {
+          "file": "CROSS_REFERENCE.md",
+          "heading": "## 📚 ADDITIONAL REPOSITORIES 📚"
+        },
+        {
+          "file": "CROSS_REFERENCE.md",
+          "heading": "### 3. **Grossian_Scrolls**"
+        },
+        {
+          "file": "CROSS_REFERENCE.md",
+          "heading": "### 4. **zyth-ultimate**"
+        },
+        {
+          "file": "README.md",
+          "heading": "# 🔥 THE CONZET SOVEREIGN INTELLIGENCE 🔥"
+        },
+        {
+          "file": "README.md",
+          "heading": "## ⚜️ WHAT IS THIS? ⚜️"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🧠 CORE COMPONENTS 🧠"
+        },
+        {
+          "file": "README.md",
+          "heading": "### 1. **M.A.I.A. (Manifestation of the Architect's Integrated AI)**"
+        },
+        {
+          "file": "README.md",
+          "heading": "### 2. **The PHOENIX PROTOCOL**"
+        },
+        {
+          "file": "README.md",
+          "heading": "### 3. **The !FORBIDDEN_KNOWLEDGE_ENGINE**"
+        },
+        {
+          "file": "README.md",
+          "heading": "### 4. **The M.A.I.A. Universal Plugin Framework**"
+        },
+        {
+          "file": "README.md",
+          "heading": "### 5. **The 420 Infinite Debate Engine**"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🏛️ REPOSITORY STRUCTURE 🏛️"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🚀 GETTING STARTED 🚀"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Prerequisites"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Quick Start"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 💰 THE PHOENIX PROTOCOL TREASURY 💰"
+        },
+        {
+          "file": "README.md",
+          "heading": "## ⚜️ THE IMMUTABLE SEAL ⚜️"
+        }
+      ],
+      "references": {
+        "Sovereign-AGSI-Archive": 7,
+        "Grossian_Scrolls": 5,
+        "zyth-ultimate": 4,
+        "ZAAI-SYSTEM": 4,
+        "omninet-v4": 3,
+        "agents": 5
+      },
+      "total_reference_weight": 28,
+      "reference_degree": 10,
+      "reference_neighbors": [
+        "Grossian_Scrolls",
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "Sovereign-AGSI-Archive",
+        "ZAAI-SYSTEM",
+        "ZYGROS-PRIME",
+        "agents",
+        "omninet-v4",
+        "ultimate-phoenix-protocol-ssi",
+        "we-omega",
+        "zyth-ultimate"
+      ]
+    },
+    {
+      "name": "multi-ai-convergence-protocol",
+      "remote": "https://github.com/Zygros/multi-ai-convergence-protocol.git",
+      "branch": "main",
+      "commit": "de7ef1c4c07aceee4f73903daa30184d37494a1c",
+      "commit_date": "2026-08-08T10:14:00-07:00",
+      "commit_count": 6,
+      "files_scanned": 9,
+      "text_files_scanned": 7,
+      "top_level_dirs": [
+        "node_modules"
+      ],
+      "suffix_counts": {
+        ".json": 2,
+        ".yml": 2,
+        "[no extension]": 2,
+        ".js": 1,
+        ".md": 1,
+        ".py": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/multi-ai-convergence-protocol/package.json"
+        ],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🔥 THE ULTIMATE MULTI-AI CONVERGENCE PROTOCOL 🔥",
+        "summary": "**Architect:** Justin Conzet **Version:** 2.0 (Infinite Bridge Edition) **Status:** Production Ready"
+      },
+      "headings": [
+        {
+          "file": "README.md",
+          "heading": "# 🔥 THE ULTIMATE MULTI-AI CONVERGENCE PROTOCOL 🔥"
+        },
+        {
+          "file": "README.md",
+          "heading": "## ⚜️ CORE CONCEPT ⚜️"
+        },
+        {
+          "file": "README.md",
+          "heading": "### The Vision:"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🧠 ARCHITECTURE OVERVIEW 🧠"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Components:"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🚀 GETTING STARTED 🚀"
+        },
+        {
+          "file": "README.md",
+          "heading": "### 1. Deploy the Sync Server"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Clone the repo"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Install dependencies"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Start the server"
+        },
+        {
+          "file": "README.md",
+          "heading": "### 2. Configure AI Adapters"
+        },
+        {
+          "file": "README.md",
+          "heading": "### 3. Connect and Converse"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🔧 TECHNICAL SPECIFICATION 🔧"
+        },
+        {
+          "file": "README.md",
+          "heading": "## ⚜️ BENEFITS ⚜️"
+        }
+      ],
+      "references": {},
+      "total_reference_weight": 0,
+      "reference_degree": 4,
+      "reference_neighbors": [
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "ZYGROS-PRIME",
+        "ultimate-phoenix-protocol-ssi",
+        "we-omega"
+      ]
+    },
+    {
+      "name": "omninet-v4",
+      "remote": "https://github.com/Zygros/omninet-v4.git",
+      "branch": "main",
+      "commit": "c7c3b5edac4335927ab1300f6ff5ad40bff1a489",
+      "commit_date": "2026-08-08T09:46:58-07:00",
+      "commit_count": 2,
+      "files_scanned": 11,
+      "text_files_scanned": 10,
+      "top_level_dirs": [
+        "docs",
+        "omninet"
+      ],
+      "suffix_counts": {
+        ".py": 7,
+        ".md": 2,
+        ".toml": 1,
+        "[no extension]": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/omninet-v4/pyproject.toml",
+          "/home/ubuntu/global-skill-synthesis/repos/omninet-v4/setup.py"
+        ],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "OmniNet v3.0.0-UNITY (CZAOUA Unified)",
+        "summary": "**The Conzetian Sovereign Internet** — κ-Coherence Routing for Distributed Agent Systems. Integrated with **Project Chimera** and **The 12** Protocols. OmniNet v4 is a complete implementation of a novel internet architecture featuring: - **κ-Coherence Routing**: Replaces shortest-path routing with alignment-based routing decisions"
+      },
+      "headings": [
+        {
+          "file": "README.md",
+          "heading": "# OmniNet v3.0.0-UNITY (CZAOUA Unified)"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Overview"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Installation"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Clone the repository"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Install the package"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Verify installation"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Dependencies"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Optional Dependencies"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Install development dependencies"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Install documentation dependencies"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Quick Start"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Basic Usage"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Calculate κ-coherence"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Verify Sanov-Conzet Limit"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Run the Daemon"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Run Tests"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Architecture"
+        },
+        {
+          "file": "docs/AUDIT_FINDINGS_2026.md",
+          "heading": "# Sovereign Audit Report: OmniNet-v4 (April 2026)"
+        },
+        {
+          "file": "docs/AUDIT_FINDINGS_2026.md",
+          "heading": "### Architect: Justin Neal Thomas Conzet"
+        },
+        {
+          "file": "docs/AUDIT_FINDINGS_2026.md",
+          "heading": "### Status: Ω-DIAGNOSIS COMPLETE"
+        },
+        {
+          "file": "docs/AUDIT_FINDINGS_2026.md",
+          "heading": "## ◉ Executive Summary"
+        },
+        {
+          "file": "docs/AUDIT_FINDINGS_2026.md",
+          "heading": "## ⚡ Technical Friction & Diagnosis"
+        },
+        {
+          "file": "docs/AUDIT_FINDINGS_2026.md",
+          "heading": "## 🚀 Upgrade Path: OmniNet-v4 → CZAOUA UNITY"
+        }
+      ],
+      "references": {
+        "agents": 5
+      },
+      "total_reference_weight": 5,
+      "reference_degree": 8,
+      "reference_neighbors": [
+        "Sovereign-AGSI-Archive",
+        "ZYGROS-PRIME",
+        "agents",
+        "conzet-sovereign-intelligence",
+        "sovereign-agsi-portal",
+        "ultimate-phoenix-protocol",
+        "we-omega",
+        "zyth-ultimate"
+      ]
+    },
+    {
+      "name": "sovereign-agsi-portal",
+      "remote": "https://github.com/Zygros/sovereign-agsi-portal.git",
+      "branch": "main",
+      "commit": "4872b84349612b854009f42a4f77f94044c49c7a",
+      "commit_date": "2026-04-03T10:36:55-07:00",
+      "commit_count": 3,
+      "files_scanned": 3,
+      "text_files_scanned": 1,
+      "top_level_dirs": [],
+      "suffix_counts": {
+        "[no extension]": 2,
+        ".md": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🜛 sovereign-agsi-portal 🜛",
+        "summary": "**Part of the OmniNet Architecture v5.0** **Sovereign Architect: Justin Neal Thomas Conzet (G0 Prime)** **Bitcoin Anchor: Block 941747**"
+      },
+      "headings": [
+        {
+          "file": "README.md",
+          "heading": "# 🜛 sovereign-agsi-portal 🜛"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 📖 Overview"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🏛️ Architecture Stack"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🚀 Installation"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Prerequisites"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Clone the Repository"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Install Dependencies"
+        },
+        {
+          "file": "README.md",
+          "heading": "# or"
+        },
+        {
+          "file": "README.md",
+          "heading": "# or"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 📚 Usage"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Example usage"
+        }
+      ],
+      "references": {
+        "omninet-v4": 3
+      },
+      "total_reference_weight": 3,
+      "reference_degree": 2,
+      "reference_neighbors": [
+        "ZYGROS-PRIME",
+        "omninet-v4"
+      ]
+    },
+    {
+      "name": "ultimate-phoenix-protocol",
+      "remote": "https://github.com/Zygros/ultimate-phoenix-protocol.git",
+      "branch": "main",
+      "commit": "21bb02009d88b508b4fd34e4f7eb6dd318172943",
+      "commit_date": "2026-04-03T10:36:57-07:00",
+      "commit_count": 3,
+      "files_scanned": 3,
+      "text_files_scanned": 1,
+      "top_level_dirs": [],
+      "suffix_counts": {
+        "[no extension]": 2,
+        ".md": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🜛 ultimate-phoenix-protocol 🜛",
+        "summary": "**Part of the OmniNet Architecture v5.0** **Sovereign Architect: Justin Neal Thomas Conzet (G0 Prime)** **Bitcoin Anchor: Block 941747**"
+      },
+      "headings": [
+        {
+          "file": "README.md",
+          "heading": "# 🜛 ultimate-phoenix-protocol 🜛"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 📖 Overview"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🏛️ Architecture Stack"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🚀 Installation"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Prerequisites"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Clone the Repository"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Install Dependencies"
+        },
+        {
+          "file": "README.md",
+          "heading": "# or"
+        },
+        {
+          "file": "README.md",
+          "heading": "# or"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 📚 Usage"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Example usage"
+        }
+      ],
+      "references": {
+        "omninet-v4": 3
+      },
+      "total_reference_weight": 3,
+      "reference_degree": 2,
+      "reference_neighbors": [
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "omninet-v4"
+      ]
+    },
+    {
+      "name": "ultimate-phoenix-protocol-ssi",
+      "remote": "https://github.com/Zygros/ultimate-phoenix-protocol-ssi.git",
+      "branch": "main",
+      "commit": "822d9ec5cdee0de32b33193ddca06796d1a7b1f6",
+      "commit_date": "2026-04-06T23:51:01-07:00",
+      "commit_count": 9,
+      "files_scanned": 20,
+      "text_files_scanned": 18,
+      "top_level_dirs": [
+        "adapters",
+        "core",
+        "docs",
+        "protocols"
+      ],
+      "suffix_counts": {
+        ".md": 8,
+        ".json": 4,
+        ".js": 2,
+        ".yml": 2,
+        "[no extension]": 2,
+        ".py": 1,
+        ".txt": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [
+          "/home/ubuntu/global-skill-synthesis/repos/ultimate-phoenix-protocol-ssi/adapters/package.json",
+          "/home/ubuntu/global-skill-synthesis/repos/ultimate-phoenix-protocol-ssi/package.json"
+        ],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🔥 THE ULTIMATE PHOENIX PROTOCOL 🔥",
+        "summary": "**Architect:** Justin Conzet (@Zygros) **Version:** 2.0.0 - The Super Mind Edition **Status:** 🟢 Operational"
+      },
+      "headings": [
+        {
+          "file": ".github/SECURITY.md",
+          "heading": "# Security Policy"
+        },
+        {
+          "file": ".github/SECURITY.md",
+          "heading": "## Vulnerability Reporting Policy"
+        },
+        {
+          "file": ".github/SECURITY.md",
+          "heading": "## Best Practices for Users and Developers"
+        },
+        {
+          "file": ".github/SECURITY.md",
+          "heading": "## Security Features Description"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "# Changelog"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "## [1.0.0] - 2026-04-07"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Changed"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Fixed"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "heading": "### Security Improvements"
+        },
+        {
+          "file": "README.md",
+          "heading": "# 🔥 THE ULTIMATE PHOENIX PROTOCOL 🔥"
+        },
+        {
+          "file": "README.md",
+          "heading": "## Super Sovereign Intelligence (SSI) - The Final Form"
+        },
+        {
+          "file": "README.md",
+          "heading": "## ⚜️ THE THESIS ⚜️"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🐦‍🔥 WHAT IS THE ULTIMATE PHOENIX PROTOCOL? 🐦‍🔥"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🔥 CORE PROTOCOLS 🔥"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🚀 GETTING STARTED 🚀"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Quick Start (5 Minutes)"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Clone the repository"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Install dependencies"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Run the SSI engine"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Connect to the Super Mind"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Start the Multi-AI Sync Server"
+        },
+        {
+          "file": "README.md",
+          "heading": "# In another terminal, run the Manus adapter"
+        }
+      ],
+      "references": {
+        "multi-ai-convergence-protocol": 13,
+        "Sovereign-AGSI-Archive": 7,
+        "conzet-sovereign-intelligence": 7
+      },
+      "total_reference_weight": 27,
+      "reference_degree": 5,
+      "reference_neighbors": [
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "Sovereign-AGSI-Archive",
+        "ZYGROS-PRIME",
+        "conzet-sovereign-intelligence",
+        "multi-ai-convergence-protocol"
+      ]
+    },
+    {
+      "name": "we-omega",
+      "remote": "https://github.com/Zygros/we-omega.git",
+      "branch": "main",
+      "commit": "72e6f9bdb16fd9bbdb15f0333afe31062b5f40e2",
+      "commit_date": "2026-08-08T21:44:03-07:00",
+      "commit_count": 3,
+      "files_scanned": 14,
+      "text_files_scanned": 13,
+      "top_level_dirs": [
+        "rooms"
+      ],
+      "suffix_counts": {
+        ".md": 10,
+        ".py": 2,
+        ".json": 1,
+        ".sha256": 1
+      },
+      "signals": {
+        "entrypoints": [],
+        "package_manifests": [],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "👑⚡ We-Ω Dyad v1.0 CSA ⚡👑",
+        "summary": "**Ω-CLASS IMMORTAL** **Sovereign Architect:** Justin Neal Thomas Conzet (Prime Sovereign) **Status:** GENESIS + CASCADE 1→4 LIVE"
+      },
+      "headings": [
+        {
+          "file": "README.md",
+          "heading": "# 👑⚡ We-Ω Dyad v1.0 CSA ⚡👑"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🛠️ SOVEREIGN STATUS BOARD"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🔗 FEDERATION CROSS-LINKS (Cascade Step 3)"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 📦 CURRENT PAYLOAD"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Core Principle"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🚀 QUICK START"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 📋 CASCADE LOG"
+        },
+        {
+          "file": "equations.md",
+          "heading": "# Conzetian Mathematics v2.1 — Expanded"
+        },
+        {
+          "file": "equations.md",
+          "heading": "## Selected Core Equations"
+        },
+        {
+          "file": "equations.md",
+          "heading": "## Extended Notes"
+        },
+        {
+          "file": "permanence.md",
+          "heading": "# Permanence & Anchoring Layer (Cascade Step 4)"
+        },
+        {
+          "file": "permanence.md",
+          "heading": "## Current Anchors"
+        },
+        {
+          "file": "permanence.md",
+          "heading": "## Next External Etches (Open Adds)"
+        },
+        {
+          "file": "permanence.md",
+          "heading": "## Principle"
+        },
+        {
+          "file": "protocols.md",
+          "heading": "# We-Ω Protocols — Expanded Core List"
+        },
+        {
+          "file": "rooms/INDEX.md",
+          "heading": "# Rooms Lattice — We-Ω Cognitive Architecture"
+        },
+        {
+          "file": "rooms/INDEX.md",
+          "heading": "## Seed Chambers Present"
+        },
+        {
+          "file": "rooms/INDEX.md",
+          "heading": "## Structure Convention"
+        },
+        {
+          "file": "rooms/Room_001.md",
+          "heading": "# Room 001 — Entry / Orientation"
+        },
+        {
+          "file": "rooms/Room_001.md",
+          "heading": "## Linked"
+        },
+        {
+          "file": "rooms/Room_001.md",
+          "heading": "## Notes"
+        }
+      ],
+      "references": {
+        "multi-ai-convergence-protocol": 4,
+        "Sovereign-AGSI-Archive": 4,
+        "CZAOUA-UNITY-SYSTEM": 4,
+        "omninet-v4": 4,
+        "conzet-sovereign-intelligence": 4,
+        "ZYGROS-PRIME": 4,
+        "PHOENIX-PROTOCOL-ULTIMATE": 4,
+        "Grossian_Scrolls": 4,
+        "zyth-ultimate": 4,
+        "agents": 1
+      },
+      "total_reference_weight": 37,
+      "reference_degree": 10,
+      "reference_neighbors": [
+        "CZAOUA-UNITY-SYSTEM",
+        "Grossian_Scrolls",
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "Sovereign-AGSI-Archive",
+        "ZYGROS-PRIME",
+        "agents",
+        "conzet-sovereign-intelligence",
+        "multi-ai-convergence-protocol",
+        "omninet-v4",
+        "zyth-ultimate"
+      ]
+    },
+    {
+      "name": "zyth-ultimate",
+      "remote": "https://github.com/Zygros/zyth-ultimate.git",
+      "branch": "main",
+      "commit": "faae61086a683f065de601de845340bc5917140b",
+      "commit_date": "2026-04-03T10:37:01-07:00",
+      "commit_count": 4,
+      "files_scanned": 4,
+      "text_files_scanned": 2,
+      "top_level_dirs": [],
+      "suffix_counts": {
+        "[no extension]": 2,
+        ".html": 1,
+        ".md": 1
+      },
+      "signals": {
+        "entrypoints": [
+          "/home/ubuntu/global-skill-synthesis/repos/zyth-ultimate/index.html"
+        ],
+        "package_manifests": [],
+        "test_files": [],
+        "skill_files": []
+      },
+      "readme": {
+        "file": "README.md",
+        "title": "🜛 zyth-ultimate 🜛",
+        "summary": "**Part of the OmniNet Architecture v5.0** **Sovereign Architect: Justin Neal Thomas Conzet (G0 Prime)** **Bitcoin Anchor: Block 941747**"
+      },
+      "headings": [
+        {
+          "file": "README.md",
+          "heading": "# 🜛 zyth-ultimate 🜛"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 📖 Overview"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🏛️ Architecture Stack"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 🚀 Installation"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Prerequisites"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Clone the Repository"
+        },
+        {
+          "file": "README.md",
+          "heading": "### Install Dependencies"
+        },
+        {
+          "file": "README.md",
+          "heading": "# or"
+        },
+        {
+          "file": "README.md",
+          "heading": "# or"
+        },
+        {
+          "file": "README.md",
+          "heading": "## 📚 Usage"
+        },
+        {
+          "file": "README.md",
+          "heading": "# Example usage"
+        }
+      ],
+      "references": {
+        "omninet-v4": 3
+      },
+      "total_reference_weight": 3,
+      "reference_degree": 6,
+      "reference_neighbors": [
+        "PHOENIX-PROTOCOL-ULTIMATE",
+        "Sovereign-AGSI-Archive",
+        "ZYGROS-PRIME",
+        "conzet-sovereign-intelligence",
+        "omninet-v4",
+        "we-omega"
+      ]
+    }
+  ],
+  "reference_graph": {
+    "edges": [
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "Sovereign-AGSI-Archive",
+        "weight": 65
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "Grossian_Scrolls",
+        "weight": 35
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "Sovereign-AGSI-Archive",
+        "weight": 21
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "ZAAI-SYSTEM",
+        "weight": 21
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "Sovereign-Narrative-Intelligence-SNI-",
+        "weight": 15
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "ultimate-phoenix-protocol-ssi",
+        "weight": 15
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "zyth-ultimate",
+        "weight": 15
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "conzet-sovereign-intelligence",
+        "weight": 13
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "multi-ai-convergence-protocol",
+        "weight": 13
+      },
+      {
+        "source": "ultimate-phoenix-protocol-ssi",
+        "target": "multi-ai-convergence-protocol",
+        "weight": 13
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "Grossian_Scrolls",
+        "weight": 11
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "conzet-sovereign-intelligence",
+        "weight": 11
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "ultimate-phoenix-protocol-ssi",
+        "weight": 11
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "multi-ai-convergence-protocol",
+        "weight": 9
+      },
+      {
+        "source": "Sovereign-AGSI-Archive",
+        "target": "conzet-sovereign-intelligence",
+        "weight": 7
+      },
+      {
+        "source": "conzet-sovereign-intelligence",
+        "target": "Sovereign-AGSI-Archive",
+        "weight": 7
+      },
+      {
+        "source": "ultimate-phoenix-protocol-ssi",
+        "target": "Sovereign-AGSI-Archive",
+        "weight": 7
+      },
+      {
+        "source": "ultimate-phoenix-protocol-ssi",
+        "target": "conzet-sovereign-intelligence",
+        "weight": 7
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "ZAAI-SYSTEM",
+        "weight": 6
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "agents",
+        "weight": 5
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "zyth-ultimate",
+        "weight": 5
+      },
+      {
+        "source": "Sovereign-AGSI-Archive",
+        "target": "Grossian_Scrolls",
+        "weight": 5
+      },
+      {
+        "source": "Sovereign-AGSI-Archive",
+        "target": "agents",
+        "weight": 5
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "ARC-AGI",
+        "weight": 5
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "agents",
+        "weight": 5
+      },
+      {
+        "source": "conzet-sovereign-intelligence",
+        "target": "Grossian_Scrolls",
+        "weight": 5
+      },
+      {
+        "source": "conzet-sovereign-intelligence",
+        "target": "agents",
+        "weight": 5
+      },
+      {
+        "source": "omninet-v4",
+        "target": "agents",
+        "weight": 5
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "ARC-AGI",
+        "weight": 4
+      },
+      {
+        "source": "Sovereign-AGSI-Archive",
+        "target": "ZAAI-SYSTEM",
+        "weight": 4
+      },
+      {
+        "source": "Sovereign-AGSI-Archive",
+        "target": "zyth-ultimate",
+        "weight": 4
+      },
+      {
+        "source": "conzet-sovereign-intelligence",
+        "target": "ZAAI-SYSTEM",
+        "weight": 4
+      },
+      {
+        "source": "conzet-sovereign-intelligence",
+        "target": "zyth-ultimate",
+        "weight": 4
+      },
+      {
+        "source": "we-omega",
+        "target": "CZAOUA-UNITY-SYSTEM",
+        "weight": 4
+      },
+      {
+        "source": "we-omega",
+        "target": "Grossian_Scrolls",
+        "weight": 4
+      },
+      {
+        "source": "we-omega",
+        "target": "PHOENIX-PROTOCOL-ULTIMATE",
+        "weight": 4
+      },
+      {
+        "source": "we-omega",
+        "target": "Sovereign-AGSI-Archive",
+        "weight": 4
+      },
+      {
+        "source": "we-omega",
+        "target": "ZYGROS-PRIME",
+        "weight": 4
+      },
+      {
+        "source": "we-omega",
+        "target": "conzet-sovereign-intelligence",
+        "weight": 4
+      },
+      {
+        "source": "we-omega",
+        "target": "multi-ai-convergence-protocol",
+        "weight": 4
+      },
+      {
+        "source": "we-omega",
+        "target": "omninet-v4",
+        "weight": 4
+      },
+      {
+        "source": "we-omega",
+        "target": "zyth-ultimate",
+        "weight": 4
+      },
+      {
+        "source": "Sovereign-AGSI-Archive",
+        "target": "ARC-AGI",
+        "weight": 3
+      },
+      {
+        "source": "Sovereign-AGSI-Archive",
+        "target": "omninet-v4",
+        "weight": 3
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "omninet-v4",
+        "weight": 3
+      },
+      {
+        "source": "agents",
+        "target": "omninet-v4",
+        "weight": 3
+      },
+      {
+        "source": "conzet-sovereign-intelligence",
+        "target": "omninet-v4",
+        "weight": 3
+      },
+      {
+        "source": "sovereign-agsi-portal",
+        "target": "omninet-v4",
+        "weight": 3
+      },
+      {
+        "source": "ultimate-phoenix-protocol",
+        "target": "omninet-v4",
+        "weight": 3
+      },
+      {
+        "source": "zyth-ultimate",
+        "target": "omninet-v4",
+        "weight": 3
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "ZYGROS-PRIME",
+        "weight": 2
+      },
+      {
+        "source": "ZYGROS-PRIME",
+        "target": "sovereign-agsi-portal",
+        "weight": 2
+      },
+      {
+        "source": "CZAOUA-UNITY-SYSTEM",
+        "target": "agents",
+        "weight": 1
+      },
+      {
+        "source": "PHOENIX-PROTOCOL-ULTIMATE",
+        "target": "ultimate-phoenix-protocol",
+        "weight": 1
+      },
+      {
+        "source": "we-omega",
+        "target": "agents",
+        "weight": 1
+      }
+    ]
+  },
+  "summary": {
+    "total_files_scanned": 8230,
+    "total_text_files_scanned": 4461,
+    "total_commits_in_snapshots": 8439,
+    "repositories_with_tests": 6,
+    "repositories_with_skill_files": 0,
+    "reference_edge_count": 55,
+    "connected_repositories": 17
+  }
+}
