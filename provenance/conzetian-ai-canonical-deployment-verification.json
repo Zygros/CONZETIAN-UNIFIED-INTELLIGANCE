@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": {
+    "canonical_index_available": true,
+    "canonical_record_count": true,
+    "canonical_duplicate_counts": true,
+    "unified_and_ai_summaries_match": true,
+    "dataset_loads": true,
+    "integration_tests_pass": true,
+    "dry_run_completed": true,
+    "dry_run_canonical_index": true,
+    "retrieval_hits_have_canonical_metadata": true,
+    "local_remote_match": true,
+    "working_tree_clean_except_report": true
+  },
+  "metrics": {
+    "record_count": 4278,
+    "exact_duplicate_groups": 495,
+    "normalized_duplicate_groups": 498,
+    "retrieved_count": 5,
+    "canonical_layers_retrieved": [
+      "source-snapshots"
+    ],
+    "tests": {
+      "total": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    "local_head": "f8fe66fcac8934efc49aaa92bdd134915d64ad46",
+    "remote_head": "f8fe66fcac8934efc49aaa92bdd134915d64ad46"
+  }
+}
