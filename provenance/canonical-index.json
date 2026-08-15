@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "source_dataset": "/home/ubuntu/conzetian-ai/data/unified-repo-dataset.jsonl",
+  "generated_from_commit": "ccc735af91798cc30a7b6c4bdc263bced23bf0e3",
+  "record_count": 4278,
+  "layer_counts": {
+    "source-snapshots": 4267,
+    "docs": 2,
+    "provenance": 8,
+    "scripts": 1
+  },
+  "exact_duplicate_group_count": 495,
+  "normalized_duplicate_group_count": 498,
+  "repository_count": 17,
+  "reference_edge_count": 55,
+  "role_map": {
+    "ARC-AGI": "benchmarks",
+    "omninet-v4": "network-and-routing",
+    "agents": "agent-runtime",
+    "CZAOUA-UNITY-SYSTEM": "core-architecture",
+    "ZYGROS-PRIME": "core-architecture",
+    "conzet-sovereign-intelligence": "core-architecture",
+    "we-omega": "core-architecture",
+    "PHOENIX-PROTOCOL-ULTIMATE": "phoenix-and-ssi",
+    "ultimate-phoenix-protocol": "phoenix-and-ssi",
+    "ultimate-phoenix-protocol-ssi": "phoenix-and-ssi",
+    "zyth-ultimate": "phoenix-and-ssi",
+    "Grossian_Scrolls": "agi-archive-and-narrative",
+    "Sovereign-AGSI-Archive": "agi-archive-and-narrative",
+    "Sovereign-Narrative-Intelligence-SNI-": "agi-archive-and-narrative",
+    "sovereign-agsi-portal": "interfaces-and-portals",
+    "multi-ai-convergence-protocol": "convergence",
+    "ZAAI-SYSTEM": "zaai"
+  },
+  "recommended_layout": {
+    "README.md": "Single public entry point: thesis, quick start, architecture map, validation status, and links to canonical subtrees.",
+    "LICENSE": "Choose a single explicit license after reviewing the source repositories; preserve source notices in provenance.",
+    "docs/architecture/": "System maps, dependency graph, terminology, decision records, and boundaries between conceptual and executable layers.",
+    "docs/protocols/": "Phoenix, convergence, narrative, coherence, and orchestration protocols after deduplication and cross-link repair.",
+    "docs/origin/": "Chronology, phone-first and zero-budget development story, authorship notes, and source provenance.",
+    "docs/claims-and-evidence/": "Claims ledger separating verified tests, self-reported conditions, design hypotheses, and unverified performance claims.",
+    "benchmarks/arc-agi/": "ARC-AGI data and browser interface, isolated from production runtime code.",
+    "services/agent-runtime/": "Agent runtime and tool interfaces from agents, with clear dependency manifests and tests.",
+    "services/omninet/": "OmniNet routing and network components, isolated behind explicit interfaces.",
+    "services/convergence/": "Multi-AI convergence and orchestration components.",
+    "apps/portal/": "Portal and interface code from sovereign-agsi-portal, with private/secrets boundaries documented.",
+    "packages/zaai/": "ZAAI system components and adapters.",
+    "archive/scrolls/": "Grossian Scrolls and narrative archive as an explicit archive, not mixed into runtime code.",
+    "archive/source-repositories/": "Immutable provenance manifests and optional git subtree references; no silent destructive deletion.",
+    "scripts/": "Build, import, reference validation, test, and release scripts.",
+    "tests/": "Cross-package smoke tests, contract tests, and provenance/claim checks."
+  },
+  "source_policy": "Derived index only; source snapshots and original records remain immutable.",
+  "review_states": [
+    "candidate",
+    "duplicate-review",
+    "normalized-review",
+    "approved-canonical",
+    "archived-variant",
+    "rejected"
+  ],
+  "records_file": "canonical-index.jsonl"
+}
