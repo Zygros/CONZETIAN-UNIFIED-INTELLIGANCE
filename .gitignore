@@ -1,34 +1,42 @@
-# Nested Git metadata and local working state
-**/.git/
-.git/
-
-# Dependency and generated directories
-**/node_modules/
-**/dist/
-**/build/
-**/.next/
-**/.cache/
-**/coverage/
-**/__pycache__/
-**/vendor/
-**/target/
-
-# Local environments and secrets
+# Secrets and environment
 .env
 .env.*
-!.env.example
 *.pem
 *.key
-*.p12
-*.pfx
+secrets/
+credentials/
 
-# OS/editor files
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
-__pycache__/
-*.pyc
-.venv/
+
+# Runtime / generated
 *.log
-.splus-runtime/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+runs/
+*.tmp
+*.bak
