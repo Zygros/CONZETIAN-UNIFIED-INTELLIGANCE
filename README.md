@@ -2,9 +2,24 @@
 
 **Unified repository for the Zygros AI systems ecosystem**
 
+> **Canonical spelling note:** the repository name is retained for GitHub compatibility. Documentation uses **Conzetian Unified Intelligence** as the canonical project name.
+
 This repository is the single review and navigation point for the 17 audited Zygros repositories. It combines their source snapshots, architecture references, cross-repository graph, provenance records, claims ledger, and integration plan without silently deleting or overwriting the original repositories.
 
 > **Current status:** Private unified monorepo, imported from fixed source snapshots. Structural integration is complete for this initial import. Runtime unification, cross-package testing, licensing consolidation, and public release remain separate validation stages.
+
+## Evidence boundary
+
+This repository is an **integration/provenance workspace**, not a claim that every imported component is runtime-compatible or production-ready. Treat each capability according to its evidence level:
+
+- **Implemented** — code exists in the source snapshot.
+- **Tested** — a current, reproducible test run is recorded for the cited revision.
+- **Benchmarked** — methodology, inputs, parameters, and output artifacts are available.
+- **Verified** — independent reproduction or review is linked.
+- **Designed** — architecture/specification exists without sufficient implementation evidence.
+- **Historical** — preserved for provenance and not a current capability claim.
+
+No repository-wide production, security, performance, or scientific claim should be inferred from the presence of source files alone.
 
 ## What is here
 
@@ -64,7 +79,19 @@ Those canonical paths should be populated only after component boundaries, licen
 
 ## Validation status
 
-The source audit scanned 8,230 files and 4,461 text files across 17 repositories. It recorded 55 cross-repository reference edges, 509 common basename collisions, and 122 exact duplicate-content groups. Six repositories showed filename-level test evidence in the audit. The unified repository therefore includes provenance and evidence labeling from the beginning and does not claim production readiness for the entire ecosystem.
+The source audit scanned 8,230 files and 4,461 text files across 17 repositories. It recorded 55 cross-repository reference edges, 509 common basename collisions, and 122 exact duplicate-content groups. Six repositories showed filename-level test evidence in the audit. These are **audit observations from the recorded snapshot**, not claims that the current tree passes all tests. Current integration status must be established from a dated test run or CI artifact.
+
+### Suggested validation gate
+
+Before promoting a component from snapshot to canonical runtime package, record:
+
+1. source repository and exact commit SHA;
+2. dependency/runtime versions;
+3. test command and result;
+4. benchmark fixture/data version, if applicable;
+5. security/dependency review;
+6. compatibility findings and known limitations;
+7. resulting integration commit.
 
 ## Visibility and safety policy
 
