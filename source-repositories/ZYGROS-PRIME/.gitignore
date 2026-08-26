@@ -119,3 +119,14 @@ Thumbs.db
 secrets.json
 config.json
 .env.local
+
+# Shell history (may contain credentials)
+.bash_history
+.zsh_history
+.history
+
+# GitHub tokens and credentials
+*token*
+*TOKEN*
+!*_token_example*
+!*TOKEN_EXAMPLE*
