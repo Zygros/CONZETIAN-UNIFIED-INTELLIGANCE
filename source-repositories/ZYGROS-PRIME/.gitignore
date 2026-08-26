@@ -119,3 +119,20 @@ Thumbs.db
 secrets.json
 config.json
 .env.local
+
+# Cryptocurrency & Wallet Security
+# NEVER commit wallet recovery phrases, seed phrases, private keys, or mnemonic phrases
+*wallet*
+*seed*
+*mnemonic*
+*recovery*phrase*
+*private*key*
+*metamask*
+*RPh*
+*.wallet
+*.seed
+*api*key*
+*api_key*
+*apikey*
+credentials.json
+auth.json
