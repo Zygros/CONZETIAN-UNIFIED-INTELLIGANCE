@@ -1,0 +1,3031 @@
+{
+  "nodes": [
+    "Grossian_Scrolls",
+    "ZAAI-SYSTEM",
+    "Sovereign-Narrative-Intelligence-SNI-",
+    "ARC-AGI",
+    "zyth-ultimate",
+    "Sovereign-AGSI-Archive",
+    "conzet-sovereign-intelligence",
+    "agents",
+    "ultimate-phoenix-protocol",
+    "multi-ai-convergence-protocol",
+    "ultimate-phoenix-protocol-ssi",
+    "ZYGROS-PRIME",
+    "PHOENIX-PROTOCOL-ULTIMATE",
+    "sovereign-agsi-portal",
+    "omninet-v4",
+    "CZAOUA-UNITY-SYSTEM",
+    "we-omega",
+    "CONZETIAN-UNIFIED-INTELLIGANCE",
+    "CONZETIAN-AI",
+    "omega-10",
+    "sovereign-federation",
+    "conzetian-skill-lattice",
+    "Conzet-Intelligence-System-",
+    "agentql",
+    "conzetian-method"
+  ],
+  "edges": [
+    {
+      "from": "Grossian_Scrolls",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Grossian_Scrolls",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZAAI-SYSTEM",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-Narrative-Intelligence-SNI-",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ARC-AGI",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "zyth-ultimate",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Sovereign-AGSI-Archive",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzet-sovereign-intelligence",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agents",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "multi-ai-convergence-protocol",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ultimate-phoenix-protocol-ssi",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "ZYGROS-PRIME",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "PHOENIX-PROTOCOL-ULTIMATE",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-agsi-portal",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omninet-v4",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CZAOUA-UNITY-SYSTEM",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "we-omega",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "CONZETIAN-AI",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "omega-10",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "sovereign-federation",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-skill-lattice",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "agentql",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "Conzet-Intelligence-System-",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "agentql",
+      "to": "conzetian-method",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "Grossian_Scrolls",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "ZAAI-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "Sovereign-Narrative-Intelligence-SNI-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "ARC-AGI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "zyth-ultimate",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "Sovereign-AGSI-Archive",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "conzet-sovereign-intelligence",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "agents",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "ultimate-phoenix-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "multi-ai-convergence-protocol",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "ultimate-phoenix-protocol-ssi",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "ZYGROS-PRIME",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "PHOENIX-PROTOCOL-ULTIMATE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "sovereign-agsi-portal",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "omninet-v4",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "CZAOUA-UNITY-SYSTEM",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "we-omega",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "CONZETIAN-UNIFIED-INTELLIGANCE",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "CONZETIAN-AI",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "omega-10",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "sovereign-federation",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "conzetian-skill-lattice",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "Conzet-Intelligence-System-",
+      "type": "canonical-reference"
+    },
+    {
+      "from": "conzetian-method",
+      "to": "agentql",
+      "type": "canonical-reference"
+    }
+  ]
+}
