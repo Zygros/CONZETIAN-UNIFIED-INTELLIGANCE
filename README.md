@@ -27,6 +27,18 @@ The repository is organized into four layers. `source-repositories/` preserves t
 
 The source snapshots are intentionally kept under explicit repository names. This prevents collisions and preserves traceability while the canonical architecture is reviewed. The next integration stage can promote selected components into stable packages and services without losing the original source paths.
 
+## Current 2026-09-21 control-plane scope
+
+The connected Zygros account currently exposes **25 repositories**. This repository is the canonical non-destructive management, provenance, audit, and navigation control plane for that 25-node surface.
+
+Key artifacts:
+- [Current repository registry](provenance/current-repository-registry.json)
+- [Complete 25-node reference graph](provenance/current-repository-graph.json)
+- [25-repository audit and 1–12 maturity scores](docs/audit/REPOSITORY_AUDIT_2026-09-21.md)
+- [Repository graph architecture](docs/architecture/REPOSITORY_GRAPH_2026-09-21.md)
+
+The graph contains 600 possible directed navigation relationships (25 × 24). These are reference/provenance edges, not claims of runtime connectivity.
+
 ## Audited source repositories
 
 | Source | Initial treatment |
