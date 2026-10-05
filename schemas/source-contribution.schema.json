@@ -1,0 +1,22 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"source-contribution.v1",
+  "title":"Source Contribution",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["version","contribution_id","participant_id","payload_reference","provenance","verification","visibility","timestamp"],
+  "properties":{
+    "version":{"type":"string"},
+    "contribution_id":{"type":"string"},
+    "participant_id":{"type":"string"},
+    "payload_reference":{"type":"string"},
+    "provenance":{"type":"object"},
+    "evidence":{"type":"array","items":{"type":"object"}},
+    "verification":{"enum":["DESIGNED","IMPLEMENTED","TESTED","BENCHMARKED","VERIFIED"]},
+    "visibility":{"enum":["private","selective","public"]},
+    "dependencies":{"type":"array","items":{"type":"string"}},
+    "timestamp":{"type":"string","format":"date-time"},
+    "parent_event":{"type":["string","null"]},
+    "signature":{"type":"string"}
+  }
+}
