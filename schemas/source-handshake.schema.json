@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"source-handshake.v1",
+  "title":"Source Handshake",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["version","participant_id","source_id","accepted","timestamp"],
+  "properties":{
+    "version":{"type":"string"},
+    "participant_id":{"type":"string"},
+    "source_id":{"type":"string"},
+    "accepted":{"type":"boolean"},
+    "timestamp":{"type":"string","format":"date-time"},
+    "identity_reference":{"type":"string"},
+    "capabilities_requested":{"type":"array","items":{"type":"string"}},
+    "privacy_preferences":{"type":"object"},
+    "signature":{"type":"string"}
+  }
+}
