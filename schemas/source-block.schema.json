@@ -1,0 +1,20 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"source-block.v1",
+  "title":"Source Block",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["version","participant_id","provenance","visibility","created_at"],
+  "properties":{
+    "version":{"type":"string"},
+    "participant_id":{"type":"string","minLength":1},
+    "identity":{"type":"object"},
+    "provenance":{"type":"array","items":{"type":"object"}},
+    "capabilities":{"type":"array","items":{"type":"string"}},
+    "visibility":{"enum":["private","selective","public"]},
+    "created_at":{"type":"string","format":"date-time"},
+    "updated_at":{"type":"string","format":"date-time"},
+    "protocol_compatibility":{"type":"array","items":{"type":"string"}},
+    "attestations":{"type":"array","items":{"type":"object"}}
+  }
+}
