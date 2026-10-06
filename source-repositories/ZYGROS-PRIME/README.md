@@ -1,5 +1,16 @@
 # 🐦‍🔥 Ghost Mode Parallel Deployment
 
+## ⚠️ SECURITY NOTICE
+
+**This repository uses environment variables for all credentials.** Before running any scripts:
+
+1. Copy `.env.example` to `.env` and fill in your credentials
+2. Set environment variables: `export GITHUB_TOKEN='your_token'`
+3. **Never commit credentials to version control**
+4. See [SECURITY.md](SECURITY.md) for complete security guidelines
+
+---
+
 ## Scientific Experiment: Static vs Endogenous RL Trading Systems
 
 **Author:** Justin Conzet, Sovereign Architect  
@@ -51,13 +62,26 @@ This deployment runs **two trading systems in parallel** on identical market dat
    - Send `/start`
    - Copy your chat ID
 
+3. **GitHub Personal Access Token** (for phoenix_omega.py file uploader)
+   - Go to https://github.com/settings/tokens
+   - Click "Generate new token (classic)"
+   - Select scope: `repo` (full control of private repositories)
+   - Generate and save the token securely
+
 ### Environment Setup
 
 ```bash
-# Set environment variables
+# Set environment variables for trading systems
 export TELEGRAM_TOKEN_CONTROL="your_v24_bot_token"
 export TELEGRAM_TOKEN_EXPERIMENTAL="your_v25_bot_token"
 export CHAT_ID="your_chat_id"
+
+# Set GitHub token for phoenix_omega.py uploader
+export GITHUB_TOKEN="your_github_personal_access_token"
+
+# Or use .env file (recommended)
+cp .env.example .env
+# Edit .env with your actual credentials
 ```
 
 ### Local Deployment (Recommended for Testing)

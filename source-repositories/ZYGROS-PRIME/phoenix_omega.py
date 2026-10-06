@@ -1,9 +1,21 @@
-import os, requests, base64
+import os, requests, base64, sys
 
-TOKEN = "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"
+# Security: Load GitHub token from environment variable
+TOKEN = os.getenv("GITHUB_TOKEN")
+if not TOKEN:
+    print("❌ ERROR: GITHUB_TOKEN environment variable not set")
+    print("Please set it with: export GITHUB_TOKEN='your_github_token_here'")
+    print("For security, never hardcode tokens in source code.")
+    sys.exit(1)
+
 REPO_NAME = "ZYGROS-PRIME"
 # Automatically get your GitHub username from the token
 user_res = requests.get("https://api.github.com/user", headers={"Authorization": f"token {TOKEN}"})
+if user_res.status_code != 200:
+    print(f"❌ ERROR: Failed to authenticate with GitHub API: {user_res.status_code}")
+    print("Please verify your GITHUB_TOKEN is valid and has the required scopes.")
+    sys.exit(1)
+
 USER = user_res.json().get('login')
 REPO_FULL = f"{USER}/{REPO_NAME}"
 BASE_DIR = "/storage/emulated/0/Download"
