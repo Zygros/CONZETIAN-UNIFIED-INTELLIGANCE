@@ -25,6 +25,7 @@ COLLECTION_NAME    = os.getenv("COLLECTION_NAME", "sovereign-archive")
 API_PORT           = int(os.getenv("API_PORT", "5001"))
 HOST               = os.getenv("HOST", "0.0.0.0")
 API_KEY            = os.getenv("API_KEY")  # if set, clients must send X-API-Key
+ARCHIVE_ROOT       = os.getenv("ARCHIVE_ROOT")  # Required: approved root directory for file ingestion
 
 ALLOWED_EXTS = {".txt", ".md", ".markdown", ".pdf", ".docx"}
 
@@ -63,6 +64,24 @@ def init_chromadb() -> None:
         db_error   = str(e)
         log.exception("Failed to init ChromaDB")
 
+# Validate archive root configuration
+if ARCHIVE_ROOT is None:
+    log.error("ARCHIVE_ROOT environment variable is not set. File ingestion from paths will be disabled.")
+    log.error("Set ARCHIVE_ROOT to an approved directory to enable path-based ingestion.")
+    ARCHIVE_ROOT_CANONICAL = None
+else:
+    try:
+        # Resolve to canonical absolute path, following symlinks
+        ARCHIVE_ROOT_CANONICAL = os.path.realpath(os.path.abspath(ARCHIVE_ROOT))
+        if not os.path.isdir(ARCHIVE_ROOT_CANONICAL):
+            log.error("ARCHIVE_ROOT '%s' is not a valid directory. Path-based ingestion disabled.", ARCHIVE_ROOT)
+            ARCHIVE_ROOT_CANONICAL = None
+        else:
+            log.info("Archive root configured: %s", ARCHIVE_ROOT_CANONICAL)
+    except Exception as e:
+        log.exception("Failed to resolve ARCHIVE_ROOT: %s", e)
+        ARCHIVE_ROOT_CANONICAL = None
+
 init_chromadb()
 
 # --------------------------
@@ -79,6 +98,31 @@ def ext_ok(path: str) -> bool:
     import os
     _, ext = os.path.splitext(path.lower())
     return ext in ALLOWED_EXTS
+
+def is_path_within_archive(path: str) -> bool:
+    """
+    Validate that a path is within the approved ARCHIVE_ROOT.
+    Returns True if the canonical path is within ARCHIVE_ROOT, False otherwise.
+    This prevents directory traversal and symlink escape attacks.
+    """
+    if ARCHIVE_ROOT_CANONICAL is None:
+        return False
+    
+    try:
+        # Resolve to canonical absolute path, following symlinks
+        canonical_path = os.path.realpath(os.path.abspath(path))
+        
+        # Check if the canonical path starts with the archive root
+        # Use os.path.commonpath to ensure proper path comparison
+        common = os.path.commonpath([canonical_path, ARCHIVE_ROOT_CANONICAL])
+        
+        # The path is safe if the common path is the archive root
+        return common == ARCHIVE_ROOT_CANONICAL
+    except (ValueError, OSError) as e:
+        # ValueError: paths on different drives (Windows)
+        # OSError: path doesn't exist or other filesystem errors
+        log.warning("Path validation failed for '%s': %s", path, e)
+        return False
 
 def read_file_text(path: str) -> Optional[str]:
     # Minimal extractors to keep things self-contained.
@@ -108,20 +152,37 @@ def read_file_text(path: str) -> Optional[str]:
     return None
 
 def walk_paths(paths: Iterable[str], recursive: bool = True) -> List[str]:
+    """
+    Walk the provided paths and return a list of files with allowed extensions.
+    All paths must be within the configured ARCHIVE_ROOT directory.
+    Paths outside ARCHIVE_ROOT are rejected to prevent arbitrary file disclosure.
+    """
+    if ARCHIVE_ROOT_CANONICAL is None:
+        log.warning("walk_paths called but ARCHIVE_ROOT is not configured. Rejecting all paths.")
+        return []
+    
     out: List[str] = []
     for p in paths:
+        # Validate path is within archive root before processing
+        if not is_path_within_archive(p):
+            log.warning("Rejected path outside archive root: %s", p)
+            continue
+        
+        # Now safe to process the validated path
         p = os.path.abspath(p)
         if os.path.isdir(p):
             if recursive:
                 for root, _, files in os.walk(p):
                     for fn in files:
                         fp = os.path.join(root, fn)
-                        if ext_ok(fp):
+                        # Double-check each discovered file is still within archive
+                        if is_path_within_archive(fp) and ext_ok(fp):
                             out.append(fp)
             else:
                 for fn in os.listdir(p):
                     fp = os.path.join(p, fn)
-                    if os.path.isfile(fp) and ext_ok(fp):
+                    # Double-check each discovered file is still within archive
+                    if os.path.isfile(fp) and is_path_within_archive(fp) and ext_ok(fp):
                         out.append(fp)
         elif os.path.isfile(p) and ext_ok(p):
             out.append(p)
@@ -187,6 +248,8 @@ def get_status():
         "db_error": db_error,
         "collection": COLLECTION_NAME,
         "persist_dir": CHROMA_PERSIST_DIR,
+        "archive_root": ARCHIVE_ROOT_CANONICAL,
+        "path_ingestion_enabled": ARCHIVE_ROOT_CANONICAL is not None,
         "allowed_exts": sorted(ALLOWED_EXTS),
         "purpose": "Query + Ingest oracle for the Sovereign Archive."
     })
