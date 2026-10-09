@@ -118,12 +118,15 @@ Your phoenix-nexus-broker/ scaffold (FastAPI 0.120.0) extended—broadcasts arb 
 import os
 import json
 import uuid
-from typing import Dict, Any, List
+import time
+from typing import Dict, Any, List, Optional
 from decimal import Decimal
+from enum import Enum
 
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect, status, BackgroundTasks
+from fastapi import FastAPI, WebSocket, WebSocketDisconnect, status, BackgroundTasks, Header, HTTPException, Depends
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 import numpy as np
 import pandas as pd
 from sympy import symbols, solve  # For risk proofs
@@ -147,7 +150,44 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Security
+security = HTTPBearer()
+
+# Transaction status enum
+class TransactionStatus(str, Enum):
+    PENDING = "pending"
+    SUBMITTED = "submitted"
+    CONFIRMED = "confirmed"
+    FAILED = "failed"
+
+# Transaction ledger for idempotency and deduplication
+transaction_ledger: Dict[str, Dict[str, Any]] = {}
+
+# Request expiry time (15 minutes)
+REQUEST_EXPIRY_SECONDS = 900
+
 clients: Dict[str, Dict[str, Any]] = {}
+
+def verify_auth(credentials: HTTPAuthorizationCredentials = Depends(security)) -> bool:
+    """Verify authentication token matches NEXUS_SECRET."""
+    if credentials.credentials != NEXUS_SECRET:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication credentials",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    return True
+
+def cleanup_expired_requests():
+    """Remove expired requests from the transaction ledger."""
+    current_time = time.time()
+    expired_keys = [
+        key for key, value in transaction_ledger.items()
+        if current_time - value.get("timestamp", 0) > REQUEST_EXPIRY_SECONDS
+        and value.get("status") in [TransactionStatus.CONFIRMED, TransactionStatus.FAILED]
+    ]
+    for key in expired_keys:
+        del transaction_ledger[key]
 
 async def broadcast(message: Dict[str, Any], exclude_client_id: str | None = None):
     """Broadcast arb signals/yields to connected μ-vaults."""
@@ -194,13 +234,140 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
         del clients[client_id]
 
 @app.post("/execute_arb")
-async def execute_arb(background_tasks: BackgroundTasks, path: Dict[str, Any]):
-    """Execute via Solana client (sim/real)."""
-    client = AsyncClient("https://api.mainnet-beta.solana.com")
-    # Jupiter execute (stub: real tx build)
-    tx = await Jupiter().execute_swap(path)  # Returns tx sig
-    background_tasks.add_task(broadcast, {"type": "tx_executed", "sig": tx.signature})
-    return JSONResponse({"status": "fired", "yield_estimate": "$3/tx"})
+async def execute_arb(
+    background_tasks: BackgroundTasks, 
+    path: Dict[str, Any],
+    idempotency_key: Optional[str] = Header(None, alias="X-Idempotency-Key"),
+    authenticated: bool = Depends(verify_auth)
+):
+    """Execute via Solana client (sim/real) with idempotency protection.
+    
+    Requires:
+    - Authentication via Bearer token (NEXUS_SECRET)
+    - Idempotency key in X-Idempotency-Key header to prevent duplicate executions
+    
+    Returns:
+    - 200: Transaction executed or already exists
+    - 401: Authentication failed
+    - 400: Missing idempotency key
+    - 409: Transaction already in progress
+    """
+    # Require idempotency key
+    if not idempotency_key:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="X-Idempotency-Key header is required to prevent duplicate transactions"
+        )
+    
+    # Validate idempotency key format (must be UUID or similar unique identifier)
+    if len(idempotency_key) < 16:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="X-Idempotency-Key must be at least 16 characters"
+        )
+    
+    # Clean up expired requests periodically
+    cleanup_expired_requests()
+    
+    # Check if this request was already processed
+    if idempotency_key in transaction_ledger:
+        existing_tx = transaction_ledger[idempotency_key]
+        
+        # If transaction is still pending or submitted, reject duplicate
+        if existing_tx["status"] in [TransactionStatus.PENDING, TransactionStatus.SUBMITTED]:
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT,
+                detail=f"Transaction with this idempotency key is already in progress (status: {existing_tx['status']})",
+                headers={"X-Transaction-Id": existing_tx.get("tx_signature", "")}
+            )
+        
+        # If transaction was already confirmed, return the existing result
+        if existing_tx["status"] == TransactionStatus.CONFIRMED:
+            return JSONResponse(
+                status_code=status.HTTP_200_OK,
+                content={
+                    "status": "already_executed",
+                    "tx_signature": existing_tx.get("tx_signature"),
+                    "yield_estimate": existing_tx.get("yield_estimate"),
+                    "executed_at": existing_tx.get("timestamp")
+                },
+                headers={"X-Transaction-Id": existing_tx.get("tx_signature", "")}
+            )
+        
+        # If transaction failed, allow retry but log it
+        if existing_tx["status"] == TransactionStatus.FAILED:
+            transaction_ledger[idempotency_key]["retry_count"] = existing_tx.get("retry_count", 0) + 1
+            transaction_ledger[idempotency_key]["status"] = TransactionStatus.PENDING
+    else:
+        # Create new transaction record
+        transaction_ledger[idempotency_key] = {
+            "status": TransactionStatus.PENDING,
+            "timestamp": time.time(),
+            "path": path,
+            "retry_count": 0
+        }
+    
+    try:
+        # Mark as submitted before execution
+        transaction_ledger[idempotency_key]["status"] = TransactionStatus.SUBMITTED
+        transaction_ledger[idempotency_key]["submitted_at"] = time.time()
+        
+        client = AsyncClient("https://api.mainnet-beta.solana.com")
+        
+        # Jupiter execute (stub: real tx build)
+        # Note: execute_swap should return transaction signature directly or as tx.signature
+        tx_result = await Jupiter().execute_swap(path)
+        
+        # Handle both return types: direct signature string or object with signature attribute
+        if isinstance(tx_result, str):
+            tx_signature = tx_result
+        elif hasattr(tx_result, 'signature'):
+            tx_signature = tx_result.signature
+        else:
+            # Fallback: try to extract signature from dict-like object
+            tx_signature = tx_result.get('signature') if isinstance(tx_result, dict) else str(tx_result)
+        
+        # Update transaction record with signature BEFORE any other operations
+        transaction_ledger[idempotency_key]["tx_signature"] = tx_signature
+        transaction_ledger[idempotency_key]["status"] = TransactionStatus.CONFIRMED
+        transaction_ledger[idempotency_key]["confirmed_at"] = time.time()
+        transaction_ledger[idempotency_key]["yield_estimate"] = "$3/tx"
+        
+        # Background task for broadcasting (failure here won't affect transaction status)
+        try:
+            background_tasks.add_task(
+                broadcast, 
+                {
+                    "type": "tx_executed", 
+                    "sig": tx_signature,
+                    "idempotency_key": idempotency_key
+                }
+            )
+        except Exception as broadcast_error:
+            # Log broadcast error but don't fail the request
+            print(f"Broadcast failed for {idempotency_key}: {broadcast_error}")
+        
+        return JSONResponse(
+            status_code=status.HTTP_200_OK,
+            content={
+                "status": "executed",
+                "tx_signature": tx_signature,
+                "yield_estimate": "$3/tx",
+                "idempotency_key": idempotency_key
+            },
+            headers={"X-Transaction-Id": tx_signature}
+        )
+        
+    except Exception as e:
+        # Mark transaction as failed
+        transaction_ledger[idempotency_key]["status"] = TransactionStatus.FAILED
+        transaction_ledger[idempotency_key]["error"] = str(e)
+        transaction_ledger[idempotency_key]["failed_at"] = time.time()
+        
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Transaction execution failed: {str(e)}"
+        )
 
 if __name__ == "__main__":
     import uvicorn
