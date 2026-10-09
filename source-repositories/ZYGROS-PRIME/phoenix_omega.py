@@ -1,6 +1,6 @@
 import os, requests, base64
 
-TOKEN = "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"
+TOKEN = os.getenv("GITHUB_TOKEN", "")  # Configure locally; never commit credentials
 REPO_NAME = "ZYGROS-PRIME"
 # Automatically get your GitHub username from the token
 user_res = requests.get("https://api.github.com/user", headers={"Authorization": f"token {TOKEN}"})
