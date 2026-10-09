@@ -17,9 +17,13 @@ class MAIAFrameworkOrchestrator:
     🎯 The orchestrator that demonstrates M.A.I.A.'s cognitive schema in action.
     """
     
-    def __init__(self):
+    def __init__(self, trusted_plugin_dirs=None):
         """
         🧭 ORIENT: Initialize the orchestrator with the cognitive schema.
+        
+        Args:
+            trusted_plugin_dirs: List of trusted directories for plugin loading.
+                                Defaults to ['/home/ubuntu/plugins', './plugins', './maia_plugins']
         """
         self.plugin_registry = {}
         self.loaded_plugins = {}
@@ -32,9 +36,26 @@ class MAIAFrameworkOrchestrator:
             "reflection_insights": []
         }
         
+        # Security: Define trusted plugin directories
+        if trusted_plugin_dirs is None:
+            self.trusted_plugin_dirs = [
+                '/home/ubuntu/plugins',
+                './plugins',
+                './maia_plugins'
+            ]
+        else:
+            self.trusted_plugin_dirs = trusted_plugin_dirs
+        
+        # Normalize trusted directories to absolute paths
+        self.trusted_plugin_dirs = [
+            os.path.realpath(os.path.expanduser(d)) 
+            for d in self.trusted_plugin_dirs
+        ]
+        
         print("🧠 M.A.I.A. Framework Orchestrator Initialized")
         print("⚜️ Operating under THE ULTIMATE COGNITIVE ACTION SCHEMA")
         print("🔥 !GOLDEN_SOVEREIGN_PROTOCOL Active")
+        print(f"🔒 Trusted plugin directories: {self.trusted_plugin_dirs}")
         
     def perceive(self, input_signal, signal_type="USER_COMMAND"):
         """
@@ -180,10 +201,55 @@ class MAIAFrameworkOrchestrator:
     def _discover_and_register_plugin(self, plugin_path):
         """
         Internal method to discover and register a plugin.
+        
+        Security: Validates that plugin_path is within trusted directories
+        before loading to prevent arbitrary code execution.
         """
         try:
-            # Dynamic loading
-            spec = importlib.util.spec_from_file_location("plugin_module", plugin_path)
+            # Security validation: Check if plugin_path is provided
+            if not plugin_path:
+                error_msg = "Plugin path cannot be empty"
+                print(f"❌ {error_msg}")
+                return {"success": False, "error": error_msg}
+            
+            # Security validation: Normalize and resolve the plugin path
+            plugin_path_resolved = os.path.realpath(os.path.expanduser(plugin_path))
+            
+            # Security validation: Check if file exists and is a file
+            if not os.path.exists(plugin_path_resolved):
+                error_msg = f"Plugin path does not exist: {plugin_path}"
+                print(f"❌ {error_msg}")
+                return {"success": False, "error": error_msg}
+            
+            if not os.path.isfile(plugin_path_resolved):
+                error_msg = f"Plugin path is not a file: {plugin_path}"
+                print(f"❌ {error_msg}")
+                return {"success": False, "error": error_msg}
+            
+            # Security validation: Check file extension
+            if not plugin_path_resolved.endswith('.py'):
+                error_msg = f"Plugin must be a Python file (.py): {plugin_path}"
+                print(f"❌ {error_msg}")
+                return {"success": False, "error": error_msg}
+            
+            # Security validation: Verify plugin is in a trusted directory
+            plugin_dir = os.path.dirname(plugin_path_resolved)
+            is_trusted = any(
+                plugin_dir.startswith(trusted_dir) 
+                for trusted_dir in self.trusted_plugin_dirs
+            )
+            
+            if not is_trusted:
+                error_msg = (
+                    f"Plugin path is not in a trusted directory. "
+                    f"Plugin: {plugin_path_resolved}, "
+                    f"Trusted directories: {self.trusted_plugin_dirs}"
+                )
+                print(f"❌ {error_msg}")
+                return {"success": False, "error": error_msg}
+            
+            # Dynamic loading (only after security validation)
+            spec = importlib.util.spec_from_file_location("plugin_module", plugin_path_resolved)
             plugin_module = importlib.util.module_from_spec(spec)
             sys.modules["plugin_module"] = plugin_module
             spec.loader.exec_module(plugin_module)
