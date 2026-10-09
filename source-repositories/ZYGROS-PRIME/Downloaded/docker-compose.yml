@@ -14,13 +14,13 @@ services:
       - COLLECTION_NAME=sovereign-archive
       - API_PORT=5001
       - HOST=0.0.0.0
-      - API_KEY=${API_KEY:-change-me-in-production}
+      - API_KEY=${API_KEY}  # REQUIRED: Must be set in environment or .env file
     volumes:
       - phoenix-data:/data
       - ./docs:/app/docs:ro  # Mount docs directory for ingestion
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:5001/api/status"]
+      test: ["CMD", "curl", "-f", "http://localhost:5001/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -36,7 +36,7 @@ services:
   #     - "3000:80"
   #   environment:
   #     - REACT_APP_API_BASE=http://localhost:5001
-  #     - REACT_APP_API_KEY=${API_KEY:-change-me-in-production}
+  #     - REACT_APP_API_KEY=${API_KEY}  # REQUIRED: Must match phoenix-node API_KEY
   #   depends_on:
   #     - phoenix-node
   #   restart: unless-stopped

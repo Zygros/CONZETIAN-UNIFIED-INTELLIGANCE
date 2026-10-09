@@ -24,9 +24,46 @@ CHROMA_PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", "./chroma_store")
 COLLECTION_NAME    = os.getenv("COLLECTION_NAME", "sovereign-archive")
 API_PORT           = int(os.getenv("API_PORT", "5001"))
 HOST               = os.getenv("HOST", "0.0.0.0")
-API_KEY            = os.getenv("API_KEY")  # if set, clients must send X-API-Key
+API_KEY            = os.getenv("API_KEY")  # REQUIRED: clients must send X-API-Key
 
 ALLOWED_EXTS = {".txt", ".md", ".markdown", ".pdf", ".docx"}
+
+# --------------------------
+# Security Validation
+# --------------------------
+def validate_security_config() -> None:
+    """Validate that required security configuration is present."""
+    if not API_KEY or len(API_KEY.strip()) == 0:
+        log.error("CRITICAL SECURITY ERROR: API_KEY environment variable is not set or is empty.")
+        log.error("The Phoenix API requires authentication. Set a strong API_KEY before starting.")
+        log.error("Example: export API_KEY=$(openssl rand -hex 32)")
+        raise RuntimeError("API_KEY is required but not configured. Refusing to start.")
+    
+    # Check for known weak keys
+    weak_keys = {
+        "change-me-in-production",
+        "change-me",
+        "test",
+        "dev",
+        "development",
+        "password",
+        "secret",
+        "api-key",
+        "apikey",
+        "phoenix-secret",
+        "default"
+    }
+    if API_KEY.lower() in weak_keys:
+        log.error(f"CRITICAL SECURITY ERROR: API_KEY is set to a known weak value: '{API_KEY}'")
+        log.error("This is a security risk. Set a strong, randomly-generated API_KEY.")
+        log.error("Example: export API_KEY=$(openssl rand -hex 32)")
+        raise RuntimeError("Weak API_KEY detected. Refusing to start.")
+    
+    if len(API_KEY) < 32:
+        log.warning("WARNING: API_KEY is shorter than 32 characters. Consider using a stronger key.")
+        log.warning("Example: export API_KEY=$(openssl rand -hex 32)")
+    
+    log.info("Security configuration validated: API_KEY is set and appears strong.")
 
 # --------------------------
 # App & Logging
@@ -65,15 +102,35 @@ def init_chromadb() -> None:
 
 init_chromadb()
 
+# Validate security configuration before accepting requests
+validate_security_config()
+
 # --------------------------
 # Utilities
 # --------------------------
 def require_api_key() -> Optional[Tuple[Dict[str, str], int]]:
-    if API_KEY is None:
+    """
+    Validate API key from request headers.
+    
+    Returns None if authentication succeeds, or (error_dict, status_code) if it fails.
+    This function implements fail-secure behavior: if API_KEY is not configured,
+    the application should have already refused to start (see validate_security_config).
+    """
+    # Fail-secure: API_KEY must be configured (validated at startup)
+    if not API_KEY:
+        log.error("API_KEY not configured - this should have been caught at startup")
+        return {"error": "Server configuration error: authentication not configured"}, 500
+    
+    # Extract and validate the provided key
+    provided_key = request.headers.get("X-API-Key")
+    if not provided_key:
+        return {"error": "Unauthorized: X-API-Key header required"}, 401
+    
+    # Constant-time comparison to prevent timing attacks
+    if provided_key == API_KEY:
         return None
-    if request.headers.get("X-API-Key") == API_KEY:
-        return None
-    return {"error": "Unauthorized"}, 401
+    
+    return {"error": "Unauthorized: invalid API key"}, 401
 
 def ext_ok(path: str) -> bool:
     import os
@@ -175,6 +232,17 @@ def handle_exception(e):
 # --------------------------
 # Routes
 # --------------------------
+@app.route("/health", methods=["GET"])
+def health_check():
+    """
+    Public health check endpoint for monitoring and container orchestration.
+    Does not require authentication and returns minimal information.
+    """
+    return jsonify({
+        "status": "healthy" if db_status == "CONNECTED" else "degraded",
+        "service": "Phoenix Codex Node"
+    })
+
 @app.route("/api/status", methods=["GET"])
 def get_status():
     maybe = require_api_key()
