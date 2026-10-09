@@ -9,16 +9,23 @@ from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 import os
+import sys
 import json
 import hashlib
 import httpx
+import secrets
 from enum import Enum
 
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
 
-API_SECRET = os.getenv("API_SECRET", "phoenix-api-secret")
+API_SECRET = os.getenv("API_SECRET")
+if not API_SECRET:
+    print("FATAL: API_SECRET environment variable is not set. Service cannot start without a secure API secret.", file=sys.stderr)
+    print("Please set API_SECRET to a cryptographically secure random value before starting the service.", file=sys.stderr)
+    sys.exit(1)
+
 NEXUS_BROKER_URL = os.getenv("NEXUS_BROKER_URL", "ws://localhost:8000")
 
 app = FastAPI(
@@ -112,7 +119,11 @@ class SearchResult(BaseModel):
 # ============================================================================
 
 def verify_token(credentials: HTTPAuthorizationCredentials = Depends(security)):
-    if credentials.credentials != API_SECRET:
+    """
+    Verify bearer token using constant-time comparison to prevent timing attacks.
+    Raises HTTPException with 401 status if token is invalid.
+    """
+    if not secrets.compare_digest(credentials.credentials, API_SECRET):
         raise HTTPException(status_code=401, detail="Invalid authentication token")
     return credentials.credentials
 
